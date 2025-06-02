@@ -190,13 +190,13 @@ h1 {
 }
 .result-message span[style*="color: green"] {
   background-color: #e6ffe6; /* Very light green */
-  border: 1px solid #66bb6a; /* Lighter green border */
+  padding: 5px 20px;
   color: #2e7d32 !important; /* Darker green text */
 }
 
 .result-message span[style*="color: red"] {
   background-color: #ffebee; /* Very light red */
-  border: 1px solid #ef5350; /* Lighter red border */
+  padding: 5px 20px;
   color: #c62828 !important; /* Darker red text */
 }
 
