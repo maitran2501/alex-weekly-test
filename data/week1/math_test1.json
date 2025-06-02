@@ -1,0 +1,124 @@
+[
+  {
+    "type": "fillin",
+    "text": "What is 3 multiplied by 4?",
+    "answer": 12,
+    "explanation": "3 times 4 equals 12. You got this!"
+  },
+  {
+    "type": "fillin",
+    "text": "Calculate: 85 + 17 = ?",
+    "answer": 102,
+    "explanation": "85 plus 17 is 102."
+  },
+  {
+    "type": "fillin",
+    "text": "Subtract: 50 - 23 = ?",
+    "answer": 27,
+    "explanation": "50 minus 23 is 27."
+  },
+  {
+    "type": "fillin",
+    "text": "What is 45 divided by 5?",
+    "answer": 9,
+    "explanation": "45 divided by 5 equals 9. Great math skills!"
+  },
+  {
+    "type": "fillin",
+    "text": "Alex has a total of 5.000 Lego bricks. He has 1.200 red bricks and 3.700 blue bricks. How many yellow bricks does he have?",
+    "answer": 100,
+    "explanation": "First, find the sum of red and blue bricks: 1.200 + 3.700 = 4.900. Then, subtract from the total: 5.000 - 4.900 = 100 yellow bricks!"
+  },
+  {
+    "type": "fillin",
+    "text": "A Minecraft character needs 64 wood blocks for a house. Alex has only 25. How many more wood blocks does he need?",
+    "answer": 39,
+    "explanation": "64 - 25 = 39. He needs 39 more wood blocks."
+  },
+  {
+    "type": "mcq",
+    "text": "Which of these is the largest number?",
+    "options": ["1.000", "9.999", "10.000", "100"],
+    "answer": "10.000",
+    "explanation": "10.000 (ten thousand) is the largest among these numbers."
+  },
+  {
+    "type": "truefalse",
+    "text": "The answer to 20 x 5 is 100.",
+    "answer": true,
+    "explanation": "20 multiplied by 5 is indeed 100."
+  },
+  {
+    "type": "fillin",
+    "text": "Alex has 10 stickers, and his friend has twice as many. How many stickers does his friend have?",
+    "answer": 20,
+    "explanation": "Twice as many means 10 * 2 = 20 stickers."
+  },
+  {
+    "type": "fillin",
+    "text": "What is 5 times 5?",
+    "answer": 25,
+    "explanation": "5 times 5 is 25. You know your tables!"
+  },
+  {
+    "type": "fillin",
+    "text": "Add 3.500 to 4.500. What is the sum?",
+    "answer": 8000,
+    "explanation": "3.500 + 4.500 = 8.000."
+  },
+  {
+    "type": "fillin",
+    "text": "If you share 18 cookies equally among 3 friends, how many cookies does each friend get?",
+    "answer": 6,
+    "explanation": "18 cookies divided by 3 friends equals 6 cookies each."
+  },
+  {
+    "type": "fillin",
+    "text": "What is the total of 90.000 minus 5.000?",
+    "answer": 85000,
+    "explanation": "90.000 - 5.000 = 85.000."
+  },
+  {
+    "type": "fillin",
+    "text": "Multiply 250 by 4. What is the product?",
+    "answer": 1000,
+    "explanation": "250 times 4 is 1,000."
+  },
+  {
+    "type": "fillin",
+    "text": "Alex collected 30 Pokemon cards. His cousin gave him 15 more. Then he lost 5. How many cards does he have now?",
+    "answer": 40,
+    "explanation": "30 + 15 = 45. 45 - 5 = 40 cards."
+  },
+  {
+    "type": "fillin",
+    "text": "If a plant grows 2 cm every day, how much will it grow in 4 days?",
+    "answer": 8,
+    "explanation": "2 cm/day * 4 days = 8 cm."
+  },
+  {
+    "type": "fillin",
+    "text": "A new video game costs 50.000 VND. Alex saved 35.000 VND. How much more money does he need?",
+    "answer": 15000,
+    "explanation": "50.000 - 35.000 = 15.000 VND."
+  },
+  {
+    "type": "mcq",
+    "text": "What is the sum of 500 and 200?",
+    "options": ["70", "700", "7.000", "70.000"],
+    "answer": "700",
+    "explanation": "500 + 200 = 700."
+  },
+  {
+    "type": "fillin",
+    "text": "In Plants vs. Zombies, Alex planted 1.500 sunflowers and 2.500 peashooters. The garden can hold a total of 5.000 plants. How many empty spots are left?",
+    "answer": 1000,
+    "explanation": "First, find the total planted: 1.500 + 2.500 = 4.000 plants. Then, subtract from the total capacity: 5.000 - 4.000 = 1.000 empty spots."
+  },
+  {
+    "type": "fillin",
+    "text": "What is 10.000 divided by 10?",
+    "answer": 1000,
+    "explanation": "10.000 ÷ 10 = 1.000."
+  }
+]

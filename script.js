@@ -3,7 +3,7 @@ const subjectSelect = document.getElementById("subject-select");
 const weekSelect = document.getElementById("week-select");
 const questionContainer = document.getElementById("question-container");
 const submitButton = document.getElementById("submit-button");
-// XÓA DÒNG NÀY: const savePdfButton = document.getElementById("save-pdf-button");
+// const savePdfButton = document.getElementById("save-pdf-button"); // Đã bỏ
 const resultPanel = document.getElementById("result-panel");
 
 let currentQuestions = []; // Biến để lưu trữ các câu hỏi hiện tại
@@ -67,7 +67,7 @@ function showInitialInstruction() {
     <div style="text-align: center; padding: 40px; background-color: #ffe0b2; border-radius: 12px; border: 2px dashed #ff9800; color: #e65100; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
         <p style="font-size: 2.2em; font-weight: bold; margin-bottom: 20px;">Hey Alex! 👋 Let's learn!</p>
         <p style="font-size: 1.5em; margin-top: 15px; color: #4a148c;">Choose a <strong>Subject</strong> and a <strong>Week</strong> from the dropdown lists above to start your awesome test!</p>
-        <p style="font-size: 1.2em; margin-top: 10px; color: #777;">Dad and Mom have prepared some fun challenges just for you!</p>
+        <p style="font-size: 1.2em; margin-top: 10px; color: #777;">Your parents have prepared some fun challenges just for you!</p>
     </div>
   `;
   resultPanel.innerHTML = ""; // Clear previous results
@@ -187,7 +187,7 @@ function displayQuestions(questions) {
       case "fillin":
         // Tạo một ô input riêng biệt cho fill-in
         const fillInInput = document.createElement("input");
-        fillInInput.type = "text";
+        fillInInput.type = "text"; // Giữ là text để cho phép nhập các ký tự khác nếu cần, nhưng sẽ parse số
         fillInInput.name = `question-${index}`;
         fillInInput.classList.add("fill-in-blank-standalone"); // New class for standalone blank
         fillInInput.placeholder = "Type your answer here"; // A helpful placeholder
@@ -291,19 +291,28 @@ function checkAnswer(question, index, checkButton) { // Thêm checkButton làm t
 
   // Kiểm tra đáp án
   let isCorrect = false;
-  const correctAnswerNormalized = String(question.answer).toLowerCase();
+  let formattedCorrectAnswer = String(question.answer); // Mặc định là chuỗi, sẽ định dạng lại nếu là số
 
   if (question.type === "truefalse") {
-    // Đối với True/False, so sánh giá trị string "true" / "false" với giá trị boolean trong JSON
     const userAnswerBool = (userAnswer === "true");
     isCorrect = (userAnswerBool === question.answer);
+  } else if (question.type === "fillin" && typeof question.answer === 'number') {
+      // Xử lý đặc biệt cho câu hỏi toán dạng fillin với đáp án là số
+      // Loại bỏ dấu chấm, phẩy, và các ký tự không phải số để parse
+      const cleanedUserAnswer = userAnswer.replace(/[.,]/g, ''); // Remove commas and dots
+      const parsedUserAnswer = parseInt(cleanedUserAnswer, 10); // Parse as integer
+
+      isCorrect = parsedUserAnswer === question.answer;
+
+      // Định dạng đáp án đúng với dấu chấm phân cách hàng nghìn cho hiển thị
+      formattedCorrectAnswer = question.answer.toLocaleString('vi-VN'); // Sử dụng locale 'vi-VN' cho dấu chấm
   } else {
-    // Đối với MCQ, FillIn, WriteAnswer, so sánh chuỗi chữ thường
-    isCorrect = userAnswer.toLowerCase() === correctAnswerNormalized;
+    // Xử lý cho MCQ, WriteAnswer, hoặc fillin với đáp án dạng chuỗi
+    isCorrect = userAnswer.toLowerCase() === String(question.answer).toLowerCase();
   }
 
+
   // Cập nhật trạng thái câu hỏi trong mảng currentQuestions
-  // Tìm đúng câu hỏi trong currentQuestions để cập nhật trạng thái
   const qToUpdate = currentQuestions.find((q, i) => i === index);
   if (qToUpdate) {
       qToUpdate.isAnswered = true;
@@ -314,7 +323,8 @@ function checkAnswer(question, index, checkButton) { // Thêm checkButton làm t
   // Hiển thị kết quả
   let resultMessageText;
   let resultMessageColor;
-  let explanationText = question.explanation; // Lấy giải thích từ JSON
+  // Use formattedCorrectAnswer for display in the explanation
+  let explanationText = `The correct answer is: ${formattedCorrectAnswer}. ${question.explanation}`;
 
   if (isCorrect) {
     resultMessageText = correctFeedbackPhrases[Math.floor(Math.random() * correctFeedbackPhrases.length)];
@@ -470,5 +480,3 @@ submitButton.addEventListener("click", () => {
 
   resultPanel.scrollIntoView({ behavior: 'smooth', block: 'start' }); // Cuộn đến phần kết quả
 });
-
-// XÓA DÒNG NÀY: savePdfButton.addEventListener("click", generatePdf);
