@@ -1,0 +1,125 @@
+[
+  {
+    "type": "fillin",
+    "text": "What is 2 multiplied by 8?",
+    "answer": 16,
+    "explanation": "2 times 8 equals 16. Keep practicing your tables!"
+  },
+  {
+    "type": "fillin",
+    "text": "Calculate: 1.500 + 750 = ?",
+    "answer": 2250,
+    "explanation": "1.500 plus 750 is 2.250."
+  },
+  {
+    "type": "fillin",
+    "text": "Subtract: 1.000 - 345 = ?",
+    "answer": 655,
+    "explanation": "1.000 minus 345 is 655."
+  },
+  {
+    "type": "fillin",
+    "text": "How many times does 3 go into 27?",
+    "answer": 9,
+    "explanation": "27 divided by 3 is 9."
+  },
+  {
+    "type": "fillin",
+    "text": "Alex has 100.000 VND. He buys a toy car for 45.000 VND and a comic book for 15.000 VND. How much money does he have left?",
+    "answer": 40000,
+    "explanation": "Total spent: 45.000 + 15.000 = 60.000 VND. Money left: 100.000 - 60.000 = 40.000 VND."
+  },
+  {
+    "type": "mcq",
+    "text": "If Alex is standing facing North, and he turns right. Which direction is he facing now?",
+    "options": ["South", "East", "West", "North"],
+    "answer": "East",
+    "explanation": "Turning right from North brings you to East."
+  },
+  {
+    "type": "fillin",
+    "text": "A watermelon weighs 3 kilograms. A pumpkin weighs 2 kilograms. What is their total weight in kilograms?",
+    "answer": 5,
+    "explanation": "3 kg + 2 kg = 5 kg. The total weight is 5 kilograms."
+  },
+  {
+    "type": "fillin",
+    "text": "A big Lego tower is 120 centimeters tall. If Alex builds another 50 centimeters on top, how tall is the tower now?",
+    "answer": 170,
+    "explanation": "120 cm + 50 cm = 170 cm. The tower is now 170 centimeters tall."
+  },
+  {
+    "type": "fillin",
+    "text": "It takes Alex 30 minutes to finish his homework. If he starts at 7:00 PM, what time will he finish?",
+    "answer": "7:30 PM",
+    "explanation": "7:00 PM plus 30 minutes is 7:30 PM. Good job on time!"
+  },
+  {
+    "type": "fillin",
+    "text": "What is 5 times 9?",
+    "answer": 45,
+    "explanation": "5 multiplied by 9 is 45. You're a math whiz!"
+  },
+  {
+    "type": "fillin",
+    "text": "Alex is on the 3rd floor. He takes the elevator down 2 floors. Which floor is he on now?",
+    "answer": 1,
+    "explanation": "3 - 2 = 1. He is on the 1st floor."
+  },
+  {
+    "type": "mcq",
+    "text": "If a square has 4 sides, and all sides are equal, how many corners does it have?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4",
+    "explanation": "A square has 4 corners (or vertices)."
+  },
+  {
+    "type": "fillin",
+    "text": "If today is Tuesday, what day was it 2 days ago?",
+    "answer": "Sunday",
+    "explanation": "Tuesday - 2 days is Sunday. Don't let time trick you!"
+  },
+  {
+    "type": "fillin",
+    "text": "What is 20.000 + 7.000?",
+    "answer": 27000,
+    "explanation": "20.000 plus 7.000 is 27.000."
+  },
+  {
+    "type": "mcq",
+    "text": "I have 3 sides and 3 corners. What shape am I?",
+    "options": ["Square", "Circle", "Triangle", "Rectangle"],
+    "answer": "Triangle",
+    "explanation": "A triangle has 3 sides and 3 corners."
+  },
+  {
+    "type": "truefalse",
+    "text": "A circle has 4 straight sides.",
+    "answer": false,
+    "explanation": "A circle is round and has no straight sides."
+  },
+  {
+    "type": "fillin",
+    "text": "You are running a race. You overtake the person in 2nd place. What position are you in now?",
+    "answer": "2nd",
+    "explanation": "If you overtake the person in 2nd place, you are now in 2nd place."
+  },
+  {
+    "type": "fillin",
+    "text": "If all 'Zombies' have 2 legs, and Alex sees 7 zombies. How many legs do they have in total?",
+    "answer": 14,
+    "explanation": "7 zombies * 2 legs/zombie = 14 legs in total."
+  },
+  {
+    "type": "fillin",
+    "text": "What is 5 multiplied by 6?",
+    "answer": 30,
+    "explanation": "5 times 6 is 30. Good job with multiplication!"
+  },
+  {
+    "type": "fillin",
+    "text": "Alex has a bag with 10 red marbles, 10 blue marbles, and 10 green marbles. He picks one without looking. What color is most likely to be picked?",
+    "answer": "All equally likely",
+    "explanation": "Since there are equal amounts of each color, all colors are equally likely to be picked. This is a tricky one!"
+  }
+]

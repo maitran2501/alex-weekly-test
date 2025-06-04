@@ -1,0 +1,124 @@
+[
+  {
+    "type": "fillin",
+    "text": "What is 4 multiplied by 3?",
+    "answer": 12,
+    "explanation": "4 times 3 equals 12. Great multiplication!"
+  },
+  {
+    "type": "fillin",
+    "text": "Calculate: 150 + 250 = ?",
+    "answer": 400,
+    "explanation": "150 plus 250 is 400."
+  },
+  {
+    "type": "fillin",
+    "text": "Subtract: 75 - 48 = ?",
+    "answer": 27,
+    "explanation": "75 minus 48 is 27."
+  },
+  {
+    "type": "fillin",
+    "text": "How many times does 2 go into 16?",
+    "answer": 8,
+    "explanation": "16 divided by 2 is 8."
+  },
+  {
+    "type": "fillin",
+    "text": "Alex has 10.000 game coins. He spent 2.500 coins on a new racing car and 1.500 coins on a power-up. How many coins does he have left?",
+    "answer": 6000,
+    "explanation": "First, find total spent: 2.500 + 1.500 = 4.000 coins. Then, subtract from total: 10.000 - 4.000 = 6.000 coins left."
+  },
+  {
+    "type": "mcq",
+    "text": "Which of these is the result of 5 times 7?",
+    "options": ["30", "35", "40", "45"],
+    "answer": "35",
+    "explanation": "5 multiplied by 7 is 35."
+  },
+  {
+    "type": "truefalse",
+    "text": "The sum of 1.000 and 2.000 is 30.000.",
+    "answer": false,
+    "explanation": "1.000 plus 2.000 is 3.000, not 30.000."
+  },
+  {
+    "type": "fillin",
+    "text": "In a Minecraft world, Alex found 4 trees. If each tree gave 8 wood blocks, how many wood blocks did he get?",
+    "answer": 32,
+    "explanation": "4 trees * 8 blocks/tree = 32 wood blocks."
+  },
+  {
+    "type": "fillin",
+    "text": "Add: 12.000 + 8.000 = ?",
+    "answer": 20000,
+    "explanation": "12.000 plus 8.000 is 20.000."
+  },
+  {
+    "type": "fillin",
+    "text": "What is 4 times 5?",
+    "answer": 20,
+    "explanation": "4 times 5 is 20. Another one for your tables!"
+  },
+  {
+    "type": "fillin",
+    "text": "If a race car drove 10 kilometers in the first lap and 12 kilometers in the second lap, how many kilometers did it drive in total?",
+    "answer": 22,
+    "explanation": "10 km + 12 km = 22 km total."
+  },
+  {
+    "type": "fillin",
+    "text": "Subtract 25.000 from 70.000.",
+    "answer": 45000,
+    "explanation": "70.000 minus 25.000 is 45.000."
+  },
+  {
+    "type": "fillin",
+    "text": "A zoo has 2 groups of monkeys, with 5 monkeys in each group. How many monkeys are there in total?",
+    "answer": 10,
+    "explanation": "2 groups * 5 monkeys/group = 10 monkeys."
+  },
+  {
+    "type": "fillin",
+    "text": "What is 2 times 7?",
+    "answer": 14,
+    "explanation": "2 multiplied by 7 is 14."
+  },
+  {
+    "type": "mcq",
+    "text": "Which number is 'fifty thousand'?",
+    "options": ["5.000", "50.000", "500.000", "500"],
+    "answer": "50.000",
+    "explanation": "50.000 is fifty thousand."
+  },
+  {
+    "type": "truefalse",
+    "text": "A square has 3 equal sides.",
+    "answer": false,
+    "explanation": "A square has 4 equal sides."
+  },
+  {
+    "type": "fillin",
+    "text": "If Alex collected 15 rare cards and gave 6 to his friend, how many rare cards does Alex have left?",
+    "answer": 9,
+    "explanation": "15 - 6 = 9 rare cards."
+  },
+  {
+    "type": "fillin",
+    "text": "What is 3 multiplied by 9?",
+    "answer": 27,
+    "explanation": "3 times 9 is 27."
+  },
+  {
+    "type": "fillin",
+    "text": "Divide 40 by 5.",
+    "answer": 8,
+    "explanation": "40 divided by 5 equals 8."
+  },
+  {
+    "type": "fillin",
+    "text": "If a rocket needs 2.000 fuel units to fly to the moon and Alex has 1.200 units, how many more units does he need?",
+    "answer": 800,
+    "explanation": "2.000 - 1.200 = 800 more fuel units."
+  }
+]

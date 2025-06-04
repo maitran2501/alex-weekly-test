@@ -120,5 +120,29 @@
     "text": "What is 10.000 divided by 10?",
     "answer": 1000,
     "explanation": "10.000 ÷ 10 = 1.000."
+  },
+  {
+    "type": "fillin",
+    "text": "The cat is sitting ______ the table and the chair.",
+    "answer": "between",
+    "explanation": "When something is in the middle of two objects, we say it's 'between' them."
+  },
+  {
+    "type": "fillin",
+    "text": "The bird is on the ______ side of the branch. It is not on the right side.",
+    "answer": "left",
+    "explanation": "If it's not on the right side, then it must be on the left side."
+  },
+  {
+    "type": "fillin",
+    "text": "In the line of ducks, the second from the right is the duck wearing a ______ hat.",
+    "answer": "blue",
+    "explanation": "This tests position counting and description. Starting from the right, the second duck wears a blue hat."
+  },
+  {
+    "type": "fillin",
+    "text": "The book is placed ______ the shelf and the lamp. It is not on top or under them.",
+    "answer": "between",
+    "explanation": "The book is in the middle space between two items, so we use the word 'between'."
   }
 ]
