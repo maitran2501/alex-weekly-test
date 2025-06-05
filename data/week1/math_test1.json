@@ -1,148 +1,127 @@
 [
   {
     "type": "fillin",
-    "text": "What is 3 multiplied by 4?",
-    "answer": 12,
-    "explanation": "3 times 4 equals 12. You got this!"
+    "text": "What is 4 multiplied by 5?",
+    "answer": 20,
+    "explanation": "4 times 5 equals 20. Great job, Alex!"
   },
   {
     "type": "fillin",
-    "text": "Calculate: 85 + 17 = ?",
-    "answer": 102,
-    "explanation": "85 plus 17 is 102."
+    "text": "Calculate: 36 - 12 = ?",
+    "answer": 24,
+    "explanation": "36 minus 12 is 24. You got this!"
   },
   {
     "type": "fillin",
-    "text": "Subtract: 50 - 23 = ?",
-    "answer": 27,
-    "explanation": "50 minus 23 is 27."
+    "text": "Add: 25 + 15 = ?",
+    "answer": 40,
+    "explanation": "25 plus 15 equals 40. Nice work!"
   },
   {
     "type": "fillin",
-    "text": "What is 45 divided by 5?",
-    "answer": 9,
-    "explanation": "45 divided by 5 equals 9. Great math skills!"
-  },
-  {
-    "type": "fillin",
-    "text": "Alex has a total of 5.000 Lego bricks. He has 1.200 red bricks and 3.700 blue bricks. How many yellow bricks does he have?",
-    "answer": 100,
-    "explanation": "First, find the sum of red and blue bricks: 1.200 + 3.700 = 4.900. Then, subtract from the total: 5.000 - 4.900 = 100 yellow bricks!"
-  },
-  {
-    "type": "fillin",
-    "text": "A Minecraft character needs 64 wood blocks for a house. Alex has only 25. How many more wood blocks does he need?",
-    "answer": 39,
-    "explanation": "64 - 25 = 39. He needs 39 more wood blocks."
+    "text": "What is 20 divided by 4?",
+    "answer": 5,
+    "explanation": "20 divided by 4 is 5. Awesome math skills!"
   },
   {
     "type": "mcq",
-    "text": "Which of these is the largest number?",
-    "options": ["1.000", "9.999", "10.000", "100"],
-    "answer": "10.000",
-    "explanation": "10.000 (ten thousand) is the largest among these numbers."
+    "text": "What is 3 times 3?",
+    "options": ["6", "9", "12", "15"],
+    "answer": "9",
+    "explanation": "3 times 3 is 9. Keep practicing your multiplication tables!"
+  },
+  {
+    "type": "fillin",
+    "text": "Alex wants to buy a toy car for 30.000 VND. He has 18,000 VND. How much more money does he need?",
+    "answer": 12000,
+    "explanation": "30.000 minus 18.000 is 12.000. Alex needs 12.000 VND more."
+  },
+  {
+    "type": "mcq",
+    "text": "A comic book costs 50.000 VND. Alex gives the shop 60.000 VND. How much change will he get?",
+    "options": ["5.000 VND", "10.000 VND", "15.000 VND", "20.000 VND"],
+    "answer": "10000 VND",
+    "explanation": "60.000 minus 50.000 is 10.000. Alex will get 10.000 VND back."
+  },
+  {
+    "type": "fillin",
+    "text": "Alex’s pencil is 10 cm long. His eraser is 4 cm long. How much longer is the pencil than the eraser?",
+    "answer": 6,
+    "explanation": "10 cm minus 4 cm is 6 cm. The pencil is 6 cm longer."
   },
   {
     "type": "truefalse",
-    "text": "The answer to 20 x 5 is 100.",
+    "text": "A ruler is 30 cm long, and a book is 25 cm long. The ruler is longer than the book.",
     "answer": true,
-    "explanation": "20 multiplied by 5 is indeed 100."
+    "explanation": "30 cm is greater than 25 cm, so the ruler is indeed longer."
   },
   {
     "type": "fillin",
-    "text": "Alex has 10 stickers, and his friend has twice as many. How many stickers does his friend have?",
-    "answer": 20,
-    "explanation": "Twice as many means 10 * 2 = 20 stickers."
-  },
-  {
-    "type": "fillin",
-    "text": "What is 5 times 5?",
-    "answer": 25,
-    "explanation": "5 times 5 is 25. You know your tables!"
-  },
-  {
-    "type": "fillin",
-    "text": "Add 3.500 to 4.500. What is the sum?",
-    "answer": 8000,
-    "explanation": "3.500 + 4.500 = 8.000."
-  },
-  {
-    "type": "fillin",
-    "text": "If you share 18 cookies equally among 3 friends, how many cookies does each friend get?",
-    "answer": 6,
-    "explanation": "18 cookies divided by 3 friends equals 6 cookies each."
-  },
-  {
-    "type": "fillin",
-    "text": "What is the total of 90.000 minus 5.000?",
-    "answer": 85000,
-    "explanation": "90.000 - 5.000 = 85.000."
-  },
-  {
-    "type": "fillin",
-    "text": "Multiply 250 by 4. What is the product?",
-    "answer": 1000,
-    "explanation": "250 times 4 is 1,000."
-  },
-  {
-    "type": "fillin",
-    "text": "Alex collected 30 Pokemon cards. His cousin gave him 15 more. Then he lost 5. How many cards does he have now?",
-    "answer": 40,
-    "explanation": "30 + 15 = 45. 45 - 5 = 40 cards."
-  },
-  {
-    "type": "fillin",
-    "text": "If a plant grows 2 cm every day, how much will it grow in 4 days?",
-    "answer": 8,
-    "explanation": "2 cm/day * 4 days = 8 cm."
-  },
-  {
-    "type": "fillin",
-    "text": "A new video game costs 50.000 VND. Alex saved 35.000 VND. How much more money does he need?",
-    "answer": 15000,
-    "explanation": "50.000 - 35.000 = 15.000 VND."
+    "text": "Alex plays a game for 20 minutes and then reads for 10 minutes. How many minutes does he spend in total?",
+    "answer": 30,
+    "explanation": "20 minutes plus 10 minutes is 30 minutes."
   },
   {
     "type": "mcq",
-    "text": "What is the sum of 500 and 200?",
-    "options": ["70", "700", "7.000", "70.000"],
-    "answer": "700",
-    "explanation": "500 + 200 = 700."
+    "text": "A movie starts at 2:00 PM and lasts 1 hour. What time does it end?",
+    "options": ["2:30 PM", "3:00 PM", "3:30 PM", "4:00 PM"],
+    "answer": "3:00 PM",
+    "explanation": "2:00 PM plus 1 hour is 3:00 PM."
   },
   {
     "type": "fillin",
-    "text": "In Plants vs. Zombies, Alex planted 1.500 sunflowers and 2.500 peashooters. The garden can hold a total of 5.000 plants. How many empty spots are left?",
-    "answer": 1000,
-    "explanation": "First, find the total planted: 1.500 + 2.500 = 4.000 plants. Then, subtract from the total capacity: 5.000 - 4.000 = 1.000 empty spots."
+    "text": "A square has 4 sides of equal length. If one side is 5 cm, what is the total length of all sides?",
+    "answer": 20,
+    "explanation": "A square has 4 sides, so 4 times 5 cm is 20 cm."
+  },
+  {
+    "type": "mcq",
+    "text": "A rectangle has two sides that are 6 cm each and two sides that are 3 cm each. What is the total length of all sides?",
+    "options": ["12 cm", "15 cm", "18 cm", "24 cm"],
+    "answer": "18 cm",
+    "explanation": "Add the sides: 6 + 6 + 3 + 3 = 18 cm."
   },
   {
     "type": "fillin",
-    "text": "What is 10.000 divided by 10?",
-    "answer": 1000,
-    "explanation": "10.000 ÷ 10 = 1.000."
+    "text": "A triangle has three sides: 4 cm, 4 cm, and 2 cm. What is the total length of all sides?",
+    "answer": 14,
+    "explanation": "Add the sides: 4 + 4 + 2 = 14 cm."
+  },
+  {
+    "type": "truefalse",
+    "text": "A circle has no sides.",
+    "answer": true,
+    "explanation": "A circle is round and has no straight sides, unlike a square or triangle."
   },
   {
     "type": "fillin",
-    "text": "The cat is sitting ______ the table and the chair.",
-    "answer": "between",
-    "explanation": "When something is in the middle of two objects, we say it's 'between' them."
+    "text": "Three dogs—Max, Bella, and Coco—are standing in a line. Max is in front of Bella, and Coco is behind Bella. Which dog is in the middle?",
+    "answer": "Bella",
+    "explanation": "Max is in front, Coco is behind, so Bella is in the middle."
+  },
+  {
+    "type": "mcq",
+    "text": "Four toys—a car, a ball, a doll, and a kite—are on a shelf. The car is on the left of the ball. The doll is on the right of the ball. The kite is not first. Which toy is second from the left?",
+    "options": ["Car", "Ball", "Doll", "Kite"],
+    "answer": "Ball",
+    "explanation": "The car is first (left of the ball), the ball is second, the doll is after the ball, and the kite is not first, so the order is Car, Ball, Doll, Kite."
   },
   {
     "type": "fillin",
-    "text": "The bird is on the ______ side of the branch. It is not on the right side.",
-    "answer": "left",
-    "explanation": "If it's not on the right side, then it must be on the left side."
+    "text": "Five birds are on a wire. The red bird is between the blue bird and the green bird. The yellow bird is first, and the black bird is last. What color is the third bird?",
+    "answer": "Red",
+    "explanation": "The order is Yellow (1), Blue (2), Red (3), Green (4), Black (5). The third bird is Red."
+  },
+  {
+    "type": "truefalse",
+    "text": "Three cats are in a row. The white cat is in front of the black cat, and the gray cat is behind the black cat. The black cat is in the middle.",
+    "answer": true,
+    "explanation": "The order is White, Black, Gray. The black cat is in the middle."
   },
   {
     "type": "fillin",
-    "text": "In the line of ducks, the second from the right is the duck wearing a ______ hat.",
-    "answer": "blue",
-    "explanation": "This tests position counting and description. Starting from the right, the second duck wears a blue hat."
-  },
-  {
-    "type": "fillin",
-    "text": "The book is placed ______ the shelf and the lamp. It is not on top or under them.",
-    "answer": "between",
-    "explanation": "The book is in the middle space between two items, so we use the word 'between'."
+    "text": "Four friends—An, Binh, Minh, and Lan—sit around a table. An is next to Binh. Minh is not next to An. Lan is next to Minh. Who is next to An besides Binh?",
+    "answer": "Lan",
+    "explanation": "Arrange the friends in a circle: An next to Binh, Minh not next to An, and Lan next to Minh. The order could be An, Binh, Lan, Minh (in a circle). Besides Binh, Lan is next to An."
   }
 ]

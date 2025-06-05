@@ -190,23 +190,46 @@ h1 {
 }
 .result-message span[style*="color: green"] {
   background-color: #e6ffe6; /* Very light green */
-  padding: 5px 20px;
+  padding: 5px 5px;
   color: #2e7d32 !important; /* Darker green text */
 }
 
 .result-message span[style*="color: red"] {
   background-color: #ffebee; /* Very light red */
-  padding: 5px 20px;
+  padding: 5px 5px;
+  color: #c62828 !important; /* Darker red text */
+}
+/* New rule for the main feedback text (e.g., "Excellent!" or "Oops!") */
+.result-message .feedback-text {
+  display: block;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 2px; /* ĐIỀU CHỈNH: Giảm khoảng cách dưới thông báo chính */
+  box-sizing: border-box;
+}
+
+/* Adjust the specific color rules to target the new .feedback-text class */
+.result-message .feedback-text[style*="color: green"] {
+  background-color: #e6ffe6; /* Very light green background */
+  color: #2e7d32 !important; /* Darker green text */
+}
+
+.result-message .feedback-text[style*="color: red"] {
+  background-color: #ffebee; /* Very light red background */
+  border: 1px solid #ef5350; /* Lighter red border */
   color: #c62828 !important; /* Darker red text */
 }
 
+/* Existing .explanation-text rule, adjust margin-top */
 .explanation-text {
-  display: block; /* New line */
-  font-style: italic; /* Italic */
-  font-weight: normal; /* Override bold from parent */
-  font-size: 0.9em; /* Slightly smaller */
-  margin-top: 8px; /* Space above explanation */
-  color: #555; /* Slightly muted color */
+  display: block;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.9em;
+  margin-top: 5px; /* ĐIỀU CHỈNH: Giảm khoảng cách trên phần giải thích */
+  color: #555;
 }
 
 /* Optional: styling for disabled/read-only inputs */

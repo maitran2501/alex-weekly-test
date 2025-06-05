@@ -383,11 +383,21 @@ function checkAnswer(question, index, checkButton) { // Thêm checkButton làm t
 function createResultMessage(text, color, explanation = '') {
   const p = document.createElement("p");
   p.classList.add("result-message");
-  let content = `<span style='color: ${color};'>${text}</span>`;
+
+  // Tạo một thẻ span riêng cho phần thông báo chính (Excellent! / Oops!)
+  const feedbackSpan = document.createElement("span");
+  feedbackSpan.classList.add("feedback-text"); // Thêm class mới để định dạng CSS
+  feedbackSpan.style.color = color;
+  feedbackSpan.textContent = text; // Sử dụng textContent để an toàn hơn
+  p.appendChild(feedbackSpan);
+
   if (explanation) {
-    content += `<br><i class="explanation-text">${explanation}</i>`; // Add explanation below, italic
+    // Tạo một thẻ i riêng cho phần giải thích
+    const explanationI = document.createElement("i");
+    explanationI.classList.add("explanation-text"); // Class đã có, sẽ đảm bảo xuống dòng và nghiêng
+    explanationI.textContent = explanation; // Sử dụng textContent để an toàn hơn
+    p.appendChild(explanationI);
   }
-  p.innerHTML = content;
   return p;
 }
 
