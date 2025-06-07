@@ -84,8 +84,8 @@
   {
     "type": "fillin",
     "text": "A triangle has three sides: 4 cm, 4 cm, and 2 cm. What is the total length of all sides?",
-    "answer": 14,
-    "explanation": "Add the sides: 4 + 4 + 2 = 14 cm."
+    "answer": 10,
+    "explanation": "Add the sides: 4 + 4 + 2 = 10 cm."
   },
   {
     "type": "truefalse",
