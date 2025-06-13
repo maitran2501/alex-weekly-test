@@ -1,194 +1,132 @@
 [
-  {
-    "type": "mcq",
-    "text": "Which animal starts with the 'D' sound?",
-    "options": ["cat", "dog", "fish", "bird"],
-    "answer": "dog",
-    "explanation": "The word 'dog' begins with the /d/ sound."
-  },
-  {
-    "type": "mcq",
-    "text": "Look at the word 'moon'. What is the first letter sound you hear?",
-    "options": ["/n/", "/m/", "/oo/", "/p/"],
-    "answer": "/m/",
-    "explanation": "The word 'moon' starts with the /m/ sound, like in 'monkey'."
-  },
-  {
-    "type": "mcq",
-    "text": "Which letter comes after 'P' in the English alphabet?",
-    "options": ["O", "Q", "R", "S"],
-    "answer": "Q",
-    "explanation": "The letters in order are P, Q, R, S."
-  },
-  {
-    "type": "mcq",
-    "text": "A very tall animal with a long neck starts with the letter 'G'. What is it?",
-    "options": ["goat", "gorilla", "giraffe", "goose"],
-    "answer": "giraffe",
-    "explanation": "A giraffe is a tall animal that starts with 'G'."
-  },
-  {
-    "type": "mcq",
-    "text": "Which word has the 'sh' digraph sound?",
-    "options": ["tree", "ship", "clown", "block"],
-    "answer": "ship",
-    "explanation": "The word 'ship' has the 'sh' sound at the beginning."
-  },
-  {
-    "type": "mcq",
-    "text": "What word names something you use to talk on, and starts with the 'ph' digraph?",
-    "options": ["photo", "phone", "fish", "fan"],
-    "answer": "phone",
-    "explanation": "A 'phone' is used to talk and starts with the 'ph' sound."
-  },
-  {
-    "type": "mcq",
-    "text": "Which word means 'not right' or 'incorrect' and starts with the 'wr' digraph?",
-    "options": ["read", "write", "wrong", "rope"],
-    "answer": "wrong",
-    "explanation": "The word 'wrong' means not correct and starts with 'wr'."
-  },
-  {
-    "type": "mcq",
-    "text": "Which word starts with the 'cl' consonant blend?",
-    "options": ["car", "clock", "cat", "cut"],
-    "answer": "clock",
-    "explanation": "The word 'clock' begins with the 'cl' blend."
-  },
-  {
-    "type": "mcq",
-    "text": "What word names a small, slow animal that moves with a shell and starts with the 'sn' blend?",
-    "options": ["snake", "snail", "snow", "star"],
-    "answer": "snail",
-    "explanation": "A 'snail' is a slow animal with a shell, and it starts with 'sn'."
-  },
-  {
-    "type": "mcq",
-    "text": "Which word has the 'br' consonant blend?",
-    "options": ["ball", "bird", "brush", "big"],
-    "answer": "brush",
-    "explanation": "The word 'brush' contains the 'br' blend."
-  },
-  {
-    "type": "mcq",
-    "text": "What sound do you hear at the beginning of 'flower'?",
-    "options": ["/f/", "/l/", "/fl/", "/ow/"],
-    "answer": "/f/",
-    "explanation": "The word 'flower' starts with the 'f' sound, then 'l'. Together, it's a blend 'fl'."
-  },
-  {
-    "type": "mcq",
-    "text": "Which word begins with the 'kn' digraph and is used for cutting things?",
-    "options": ["knot", "knife", "know", "knock"],
-    "answer": "knife",
-    "explanation": "The word 'knife' begins with 'kn' and is used for cutting."
-  },
-  {
-    "type": "truefalse",
-    "text": "The word 'zebra' starts with the 'Z' sound.",
-    "answer": true,
-    "explanation": "Yes, 'zebra' begins with the /z/ sound."
-  },
-  {
-    "type": "truefalse",
-    "text": "The last letter sound in 'dog' is 'G'.",
-    "answer": true,
-    "explanation": "The word 'dog' ends with the /g/ sound."
-  },
-  {
-    "type": "truefalse",
-    "text": "The word 'thumb' has the 'ph' digraph sound.",
-    "answer": false,
-    "explanation": "The word 'thumb' has the 'th' digraph sound, not 'ph'. The 'b' is silent."
-  },
-  {
-    "type": "truefalse",
-    "text": "The word 'wheel' has the 'wh' digraph sound.",
-    "answer": true,
-    "explanation": "Yes, 'wheel' starts with the 'wh' digraph sound."
-  },
-  {
-    "type": "truefalse",
-    "text": "The word 'spoon' starts with the 'sp' consonant blend.",
-    "answer": true,
-    "explanation": "Yes, 'spoon' begins with the 'sp' blend."
-  },
-  {
-    "type": "truefalse",
-    "text": "The word 'frog' has the 'cl' consonant blend.",
-    "answer": false,
-    "explanation": "The word 'frog' starts with the 'fr' blend, not 'cl'."
-  },
-  {
-    "type": "fillin",
-    "text": "The first letter sound in 'robot' is the letter ______. (Write the letter)",
-    "answer": "r",
-    "explanation": "The word 'robot' starts with the letter 'r'."
-  },
-  {
-    "type": "fillin",
-    "text": "What letter makes the sound you hear at the beginning of 'van'? ______. (Write the letter)",
-    "answer": "v",
-    "explanation": "The word 'van' starts with the letter 'v'."
-  },
-  {
-    "type": "fillin",
-    "text": "The animal that hops and has long ears starts with 'B'. It is a ______. (Write the word)",
-    "answer": "bunny",
-    "explanation": "A bunny is an animal that hops and starts with 'b'."
-  },
-  {
-    "type": "fillin",
-    "text": "If you are looking at a photograph, the first letter of 'photograph' is ______. (Write the letter)",
-    "answer": "p",
-    "explanation": "The word 'photograph' starts with the letter 'p'."
-  },
-  {
-    "type": "fillin",
-    "text": "You travel on this over water. It starts with the 'sh' digraph. It is a ______. (Write the word)",
-    "answer": "ship",
-    "explanation": "A 'ship' is a place where boats go and starts with the 'sh' sound."
-  },
-  {
-    "type": "fillin",
-    "text": "The word 'choice' starts with which digraph? (Write the digraph)",
-    "answer": "ch",
-    "explanation": "The word 'choice' starts with the 'ch' digraph sound."
-  },
-  {
-    "type": "fillin",
-    "text": "This is a question word that starts with the 'wh' digraph and asks about time. What is it? ______. (Write the word)",
-    "answer": "when",
-    "explanation": "The word 'when' starts with the 'wh' digraph and asks about time."
-  },
-  {
-    "type": "fillin",
-    "text": "A very tall green plant with a trunk is a ______. (This word starts with the 'tr' blend)",
-    "answer": "tree",
-    "explanation": "A 'tree' is a tall plant with a trunk, and it starts with the 'tr' blend."
-  },
-  {
-    "type": "fillin",
-    "text": "You use this to clean your teeth. It starts with the 'br' blend. It is a ______. (Write the word)",
-    "answer": "brush",
-    "explanation": "You use a 'brush' to clean your teeth, and it starts with 'br'."
-  },
-  {
-    "type": "fillin",
-    "text": "This is something you use to tell time. It starts with the 'cl' blend. It is a ______. (Write the word)",
-    "answer": "clock",
-    "explanation": "A 'clock' tells time and starts with the 'cl' blend."
-  },
-  {
-    "type": "fillin",
-    "text": "A small, slippery animal without legs, often found in gardens, starts with the 'sn' blend. It is a ______. (Write the word)",
-    "answer": "snail",
-    "explanation": "A 'snail' is a slippery animal with no legs that starts with 'sn'."
-  },
-  {
-    "type": "fillin",
-    "text": "This number comes right after 19 and starts with the 'tw' blend. What is it? ______. (Write the word)",
-    "answer": "twenty",
-    "explanation": "The word 'twenty' comes after 19 and begins with the 'tw' consonant blend."
-  }
+    {
+        "type": "mcq",
+        "text": "Which word has the short 'a' sound?",
+        "options": ["hen", "cat", "pig", "bug"],
+        "answer": "cat",
+        "explanation": "The word 'cat' has the short 'a' sound. We hear /a/ in the middle: c-a-t."
+    },
+    {
+        "type": "mcq",
+        "text": "Which word rhymes with 'hat'?",
+        "options": ["hut", "hit", "rat", "red"],
+        "answer": "rat",
+        "explanation": "'Rat' and 'hat' both end with the '-at' sound. They rhyme."
+    },
+    {
+        "type": "mcq",
+        "text": "Which word has the short 'e' sound?",
+        "options": ["bag", "ten", "sit", "log"],
+        "answer": "ten",
+        "explanation": "The word 'ten' has the short 'e' sound. We hear /e/ in the middle: t-e-n."
+    },
+    {
+        "type": "mcq",
+        "text": "Which word has the same vowel sound as 'bed'?",
+        "options": ["lip", "log", "leg", "bag"],
+        "answer": "leg",
+        "explanation": "Both 'leg' and 'bed' have the short 'e' sound."
+    },
+    {
+        "type": "mcq",
+        "text": "Which word has the short 'i' sound?",
+        "options": ["red", "rat", "rock", "win"],
+        "answer": "win",
+        "explanation": "The word 'win' has the short 'i' sound. We hear /i/ in the middle: w-i-n."
+    },
+    {
+        "type": "mcq",
+        "text": "Which word rhymes with 'pig'?",
+        "options": ["big", "bag", "bug", "bed"],
+        "answer": "big",
+        "explanation": "'Big' and 'pig' both end with the '-ig' sound. They rhyme."
+    },
+    {
+        "type": "mcq",
+        "text": "Which word has the short 'o' sound?",
+        "options": ["frog", "fish", "cab", "net"],
+        "answer": "frog",
+        "explanation": "The word 'frog' has the short 'o' sound. We hear /o/ in the middle: fr-o-g."
+    },
+    {
+        "type": "mcq",
+        "text": "Which word rhymes with 'log'?",
+        "options": ["leg", "lip", "dog", "duck"],
+        "answer": "dog",
+        "explanation": "'Dog' and 'log' both end with the '-og' sound. They rhyme."
+    },
+    {
+        "type": "mcq",
+        "text": "Which word has the short 'u' sound?",
+        "options": ["pot", "pet", "hat", "hut"],
+        "answer": "hut",
+        "explanation": "The word 'hut' has the short 'u' sound. We hear /u/ in the middle: h-u-t."
+    },
+    {
+        "type": "mcq",
+        "text": "Which word rhymes with 'bug'?",
+        "options": ["mug", "bag", "big", "dog"],
+        "answer": "mug",
+        "explanation": "'Mug' and 'bug' both end with the '-ug' sound. They rhyme."
+    },
+    {
+        "type": "truefalse",
+        "text": "The word 'bag' and the word 'bug' start with the same letter.",
+        "answer": true,
+        "explanation": "Yes, both 'bag' and 'bug' start with the letter 'b'."
+    },
+    {
+        "type": "truefalse",
+        "text": "The word 'red' rhymes with the word 'hat'.",
+        "answer": false,
+        "explanation": "'Red' rhymes with 'bed'. 'Hat' rhymes with 'cat'. They do not rhyme."
+    },
+    {
+        "type": "truefalse",
+        "text": "The word 'fish' has the short 'o' sound.",
+        "answer": false,
+        "explanation": "The word 'fish' has the short 'i' sound, like in 'pig'."
+    },
+    {
+        "type": "truefalse",
+        "text": "The word 'sock' has the same vowel sound as 'pot'.",
+        "answer": true,
+        "explanation": "Yes, both 'sock' and 'pot' have the short 'o' sound."
+    },
+    {
+        "type": "fillin",
+        "text": "Fill in the missing letter: b _ g (something to carry things).",
+        "answer": "a",
+        "explanation": "The word is 'bag'. The missing letter is 'a'."
+    },
+    {
+        "type": "fillin",
+        "text": "Fill in the missing letter: h _ n (a chicken).",
+        "answer": "e",
+        "explanation": "The word is 'hen'. The missing letter is 'e'."
+    },
+    {
+        "type": "fillin",
+        "text": "Fill in the missing letter: p _ g (an animal).",
+        "answer": "i",
+        "explanation": "The word is 'pig'. The missing letter is 'i'."
+    },
+    {
+        "type": "fillin",
+        "text": "Fill in the missing letter: d _ g (a pet).",
+        "answer": "o",
+        "explanation": "The word is 'dog'. The missing letter is 'o'."
+    },
+    {
+        "type": "fillin",
+        "text": "Fill in the missing letter: b _ s (a big car for many people).",
+        "answer": "u",
+        "explanation": "The word is 'bus'. The missing letter is 'u'."
+    },
+    {
+        "type": "fillin",
+        "text": "What is the last letter in the word 'drum'? ____",
+        "answer": "m",
+        "explanation": "The word 'drum' ends with the letter 'm'."
+    }
 ]

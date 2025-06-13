@@ -1,127 +1,130 @@
 [
-  {
-    "type": "fillin",
-    "text": "What is 4 multiplied by 5?",
-    "answer": 20,
-    "explanation": "4 times 5 equals 20. Great job, Alex!"
-  },
-  {
-    "type": "fillin",
-    "text": "Calculate: 36 - 12 = ?",
-    "answer": 24,
-    "explanation": "36 minus 12 is 24. You got this!"
-  },
-  {
-    "type": "fillin",
-    "text": "Add: 25 + 15 = ?",
-    "answer": 40,
-    "explanation": "25 plus 15 equals 40. Nice work!"
-  },
-  {
-    "type": "fillin",
-    "text": "What is 20 divided by 4?",
-    "answer": 5,
-    "explanation": "20 divided by 4 is 5. Awesome math skills!"
-  },
-  {
-    "type": "mcq",
-    "text": "What is 3 times 3?",
-    "options": ["6", "9", "12", "15"],
-    "answer": "9",
-    "explanation": "3 times 3 is 9. Keep practicing your multiplication tables!"
-  },
-  {
-    "type": "fillin",
-    "text": "Alex wants to buy a toy car for 30.000 VND. He has 18,000 VND. How much more money does he need?",
-    "answer": 12000,
-    "explanation": "30.000 minus 18.000 is 12.000. Alex needs 12.000 VND more."
-  },
-  {
-    "type": "mcq",
-    "text": "A comic book costs 50.000 VND. Alex gives the shop 60.000 VND. How much change will he get?",
-    "options": ["5.000 VND", "10.000 VND", "15.000 VND", "20.000 VND"],
-    "answer": "10000 VND",
-    "explanation": "60.000 minus 50.000 is 10.000. Alex will get 10.000 VND back."
-  },
-  {
-    "type": "fillin",
-    "text": "Alex’s pencil is 10 cm long. His eraser is 4 cm long. How much longer is the pencil than the eraser?",
-    "answer": 6,
-    "explanation": "10 cm minus 4 cm is 6 cm. The pencil is 6 cm longer."
-  },
-  {
-    "type": "truefalse",
-    "text": "A ruler is 30 cm long, and a book is 25 cm long. The ruler is longer than the book.",
-    "answer": true,
-    "explanation": "30 cm is greater than 25 cm, so the ruler is indeed longer."
-  },
-  {
-    "type": "fillin",
-    "text": "Alex plays a game for 20 minutes and then reads for 10 minutes. How many minutes does he spend in total?",
-    "answer": 30,
-    "explanation": "20 minutes plus 10 minutes is 30 minutes."
-  },
-  {
-    "type": "mcq",
-    "text": "A movie starts at 2:00 PM and lasts 1 hour. What time does it end?",
-    "options": ["2:30 PM", "3:00 PM", "3:30 PM", "4:00 PM"],
-    "answer": "3:00 PM",
-    "explanation": "2:00 PM plus 1 hour is 3:00 PM."
-  },
-  {
-    "type": "fillin",
-    "text": "A square has 4 sides of equal length. If one side is 5 cm, what is the total length of all sides?",
-    "answer": 20,
-    "explanation": "A square has 4 sides, so 4 times 5 cm is 20 cm."
-  },
-  {
-    "type": "mcq",
-    "text": "A rectangle has two sides that are 6 cm each and two sides that are 3 cm each. What is the total length of all sides?",
-    "options": ["12 cm", "15 cm", "18 cm", "24 cm"],
-    "answer": "18 cm",
-    "explanation": "Add the sides: 6 + 6 + 3 + 3 = 18 cm."
-  },
-  {
-    "type": "fillin",
-    "text": "A triangle has three sides: 4 cm, 4 cm, and 2 cm. What is the total length of all sides?",
-    "answer": 10,
-    "explanation": "Add the sides: 4 + 4 + 2 = 10 cm."
-  },
-  {
-    "type": "truefalse",
-    "text": "A circle has no sides.",
-    "answer": true,
-    "explanation": "A circle is round and has no straight sides, unlike a square or triangle."
-  },
-  {
-    "type": "fillin",
-    "text": "Three dogs—Max, Bella, and Coco—are standing in a line. Max is in front of Bella, and Coco is behind Bella. Which dog is in the middle?",
-    "answer": "Bella",
-    "explanation": "Max is in front, Coco is behind, so Bella is in the middle."
-  },
-  {
-    "type": "mcq",
-    "text": "Four toys—a car, a ball, a doll, and a kite—are on a shelf. The car is on the left of the ball. The doll is on the right of the ball. The kite is not first. Which toy is second from the left?",
-    "options": ["Car", "Ball", "Doll", "Kite"],
-    "answer": "Ball",
-    "explanation": "The car is first (left of the ball), the ball is second, the doll is after the ball, and the kite is not first, so the order is Car, Ball, Doll, Kite."
-  },
-  {
-    "type": "fillin",
-    "text": "Five birds are on a wire. The red bird is between the blue bird and the green bird. The yellow bird is first, and the black bird is last. What color is the third bird?",
-    "answer": "Red",
-    "explanation": "The order is Yellow (1), Blue (2), Red (3), Green (4), Black (5). The third bird is Red."
-  },
-  {
-    "type": "truefalse",
-    "text": "Three cats are in a row. The white cat is in front of the black cat, and the gray cat is behind the black cat. The black cat is in the middle.",
-    "answer": true,
-    "explanation": "The order is White, Black, Gray. The black cat is in the middle."
-  },
-  {
-    "type": "fillin",
-    "text": "Four friends—An, Binh, Minh, and Lan—sit around a table. An is next to Binh. Minh is not next to An. Lan is next to Minh. Who is next to An besides Binh?",
-    "answer": "Lan",
-    "explanation": "Arrange the friends in a circle: An next to Binh, Minh not next to An, and Lan next to Minh. The order could be An, Binh, Lan, Minh (in a circle). Besides Binh, Lan is next to An."
-  }
+    {
+        "type": "mcq",
+        "text": "What is 9 + 7?",
+        "options": ["15", "16", "17", "18"],
+        "answer": "16",
+        "explanation": "To add 9 and 7, you can think 9 + 1 is 10, and 6 more is 16. So, 9 + 7 = 16."
+    },
+    {
+        "type": "mcq",
+        "text": "What is 18 - 5?",
+        "options": ["12", "13", "14", "23"],
+        "answer": "13",
+        "explanation": "When you take away 5 from 18, you have 13 left. So, 18 - 5 = 13."
+    },
+    {
+        "type": "mcq",
+        "text": "Tom has 10 pencils. He gets 4 more. How many pencils does Tom have now?",
+        "options": ["6", "10", "14", "15"],
+        "answer": "14",
+        "explanation": "'Gets more' means we add. 10 + 4 = 14 pencils."
+    },
+    {
+        "type": "mcq",
+        "text": "There are 15 birds on a tree. 6 birds fly away. How many birds are left?",
+        "options": ["9", "10", "21", "15"],
+        "answer": "9",
+        "explanation": "'Fly away' means we subtract. 15 - 6 = 9 birds are left."
+    },
+    {
+        "type": "mcq",
+        "text": "What is 6 + 8?",
+        "options": ["12", "13", "14", "15"],
+        "answer": "14",
+        "explanation": "6 plus 8 equals 14. So, 6 + 8 = 14."
+    },
+    {
+        "type": "mcq",
+        "text": "What is 20 - 11?",
+        "options": ["8", "9", "10", "11"],
+        "answer": "9",
+        "explanation": "When you subtract 11 from 20, the answer is 9. So, 20 - 11 = 9."
+    },
+    {
+        "type": "mcq",
+        "text": "Ann has 5 red balls and 8 blue balls. How many balls in total?",
+        "options": ["3", "12", "13", "14"],
+        "answer": "13",
+        "explanation": "'In total' means we add everything together. 5 + 8 = 13 balls."
+    },
+    {
+        "type": "mcq",
+        "text": "I see 12 cars. 7 cars are red. The rest are blue. How many blue cars are there?",
+        "options": ["5", "7", "12", "19"],
+        "answer": "5",
+        "explanation": "To find 'the rest', we subtract. 12 - 7 = 5 blue cars."
+    },
+    {
+        "type": "truefalse",
+        "text": "8 + 8 = 16.",
+        "answer": true,
+        "explanation": "This is correct. 8 plus 8 is 16."
+    },
+    {
+        "type": "truefalse",
+        "text": "17 - 9 = 7.",
+        "answer": false,
+        "explanation": "This is false. 17 - 9 = 8."
+    },
+    {
+        "type": "truefalse",
+        "text": "If you have 10 cookies and you eat 3, you have 7 cookies left.",
+        "answer": true,
+        "explanation": "Yes, this is a subtraction problem. 10 - 3 = 7."
+    },
+    {
+        "type": "truefalse",
+        "text": "The number 15 is more than 19.",
+        "answer": false,
+        "explanation": "This is false. 15 is less than 19."
+    },
+    {
+        "type": "truefalse",
+        "text": "To find the 'total', you subtract.",
+        "answer": false,
+        "explanation": "This is false. To find the 'total', you add."
+    },
+    {
+        "type": "fillin",
+        "text": "11 + 6 = ____",
+        "answer": "17",
+        "explanation": "11 plus 6 equals 17."
+    },
+    {
+        "type": "fillin",
+        "text": "19 - 4 = ____",
+        "answer": "15",
+        "explanation": "19 minus 4 equals 15."
+    },
+    {
+        "type": "fillin",
+        "text": "Ben has 7 books. He buys 5 more. Now he has ____ books.",
+        "answer": "12",
+        "explanation": "'Buys more' means we add. 7 + 5 = 12."
+    },
+    {
+        "type": "fillin",
+        "text": "There are 14 frogs. 8 frogs jump away. ____ frogs are left.",
+        "answer": "6",
+        "explanation": "'Jump away' means they are gone, so we subtract. 14 - 8 = 6."
+    },
+    {
+        "type": "fillin",
+        "text": "I need 15 dollars. I have 10 dollars. I need ____ more dollars.",
+        "answer": "5",
+        "explanation": "To find how much more you need, you subtract. 15 - 10 = 5."
+    },
+    {
+        "type": "fillin",
+        "text": "A cat has 4 legs. Two cats have ____ legs in total.",
+        "answer": "8",
+        "explanation": "For two cats, we add the legs. 4 + 4 = 8 legs."
+    },
+    {
+        "type": "fillin",
+        "text": "What number is 5 less than 13? ____",
+        "answer": "8",
+        "explanation": "'Less than' means you subtract. 13 - 5 = 8."
+    }
 ]
