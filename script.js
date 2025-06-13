@@ -65,9 +65,9 @@ const highScoreFeedback = [
 function showInitialInstruction() {
   questionContainer.innerHTML = `
     <div style="text-align: center; padding: 40px; background-color: #ffe0b2; border-radius: 12px; border: 2px dashed #ff9800; color: #e65100; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <p style="font-size: 2.2em; font-weight: bold; margin-bottom: 20px;">Hey Alex! 👋 Let's learn!</p>
+        <p style="font-size: 2.2em; font-weight: bold; margin-bottom: 20px;">Hey Tony! 👋 Let's learn!</p>
         <p style="font-size: 1.5em; margin-top: 15px; color: #4a148c;">Choose a <strong>Subject</strong> and a <strong>Week</strong> from the dropdown lists above to start your awesome test!</p>
-        <p style="font-size: 1.2em; margin-top: 10px; color: #777;">Your parents have prepared some fun challenges just for you!</p>
+        <p style="font-size: 1.2em; margin-top: 10px; color: #777;">Ms. Mai have prepared some fun challenges just for you!</p>
     </div>
   `;
   resultPanel.innerHTML = ""; // Clear previous results
