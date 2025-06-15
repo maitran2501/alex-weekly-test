@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex's English Test!</title>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Alex's English Test!</h1>
+  </header>
+
+  <main>
+    <section id="selection-panel">
+      <label for="subject-select">Choose Subject:</label>
+      <select id="subject-select">
+        <option value="">-- Select Subject --</option> <!-- Thêm option mặc định -->
+        <option value="language_arts">Language Arts</option>
+        <option value="math">Math</option>
+        <option value="science">Science</option>
+        <option value="social">Social</option>
+      </select>
+
+      <label for="week-select">Choose Week:</label>
+      <select id="week-select">
+        <option value="">-- Select Week --</option> <!-- Thêm option mặc định -->
+        <option value="week1">Week 1</option>
+        <!--<option value="week2">Week 2</option>
+        <option value="week3">Week 3</option>
+        <option value="week4">Week 4</option>
+        <option value="week5">Week 5</option>
+        <option value="week6">Week 6</option>
+        <option value="week7">Week 7</option>
+        <option value="week8">Week 8</option>
+        <option value="week9">Week 9</option>
+        <option value="week10">Week 10</option>
+        <option value="week11">Week 11</option>
+        <option value="week12">Week 12</option>-->
+      </select>
+    </section>
+
+    <section id="question-container">
+      <!-- Câu hỏi sẽ được hiển thị ở đây -->
+    </section>
+
+    <section id="result-panel">
+      <!-- Kết quả sẽ được hiển thị ở đây -->
+    </section>
+  </main>
+
+  <footer>
+    <button id="submit-button">Show My Score!</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

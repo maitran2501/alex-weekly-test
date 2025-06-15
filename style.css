@@ -1,0 +1,457 @@
+/* General body and main container */
+body {
+  font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Playful font */
+  line-height: 1.6;
+  margin: 0;
+  padding: 25px; /* More padding */
+  background-color: #e3f2fd; /* Light sky blue - calm, friendly */
+  color: #333;
+}
+
+main {
+  max-width: 850px; /* Slightly wider */
+  margin: 25px auto;
+  background-color: #ffffff;
+  padding: 30px; /* More internal padding */
+  border-radius: 20px; /* More rounded, playful */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+}
+
+/* Header */
+header {
+  background-color: #ff9800; /* Bright orange - playful */
+  color: white;
+  padding: 25px 0;
+  text-align: center;
+  border-radius: 20px 20px 0 0; /* Match main container radius */
+  box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em; /* Even larger title */
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.4); /* Stronger text shadow */
+  letter-spacing: 3px; /* A bit more space between letters */
+  font-family: 'Impact', sans-serif; /* Stronger font for title */
+}
+
+/* Selection Panel */
+#selection-panel {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  justify-content: center;
+  gap: 30px; /* More space between items */
+  margin-bottom: 35px; /* More space below panel */
+  padding: 25px;
+  background-color: #fff9c4; /* Light pastel yellow - warm */
+  border-radius: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  align-items: center;
+}
+
+#selection-panel label {
+  font-weight: bold;
+  color: #d84315; /* Darker orange for labels */
+  font-size: 1.2em;
+}
+
+#selection-panel select {
+  padding: 12px 30px;
+  border: 2px solid #ff5722; /* Vibrant orange border */
+  border-radius: 10px; /* More rounded */
+  font-size: 1.1em;
+  background-color: white;
+  box-shadow: inset 0 1px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  appearance: none; /* Remove default dropdown arrow */
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23ff5722%22%20d%3D%22M287%2C197.3L159.2%2C69.5c-7.9-7.9-20.6-7.9-28.5%2C0L5.4%2C197.3c-7.9%2C7.9-7.9%2C20.6%2C0%2C28.5c7.9%2C7.9%2C20.6%2C7.9%2C28.5%2C0l110.8-110.8L258.5%2C225.8c7.9%2C7.9%2C20.6%2C7.9%2C28.5%2C0C294.9%2C217.9%2C294.9%2C205.2%2C287%2C197.3z%22%2F%3E%3C%2Fsvg%3E'); /* Custom arrow */
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+}
+
+/* Question Container */
+#question-container {
+  padding: 30px;
+  background-color: #c8e6c9; /* Light green - soothing */
+  border-radius: 15px;
+  box-shadow: inset 0 3px 10px rgba(0, 0, 0, 0.08); /* Inner shadow */
+}
+
+/* Individual Question */
+.question {
+  background-color: #ffffff;
+  border: 3px solid #8bc34a; /* Vibrant green border */
+  border-radius: 15px; /* More rounded corners for questions */
+  padding: 25px;
+  margin-bottom: 35px; /* More margin between questions */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Slower transition */
+  overflow: hidden; /* Ensure emoji doesn't spill out */
+}
+
+.question:hover {
+  transform: translateY(-12px); /* Lift up and slightly rotate */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25); /* More prominent shadow on hover */
+}
+
+.question p {
+  font-size: 1.4em; /* Larger question text */
+  color: #3f51b5; /* Indigo blue - strong */
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+/* Radio/Checkbox labels */
+.question label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; /* More space between options */
+  font-size: 1.25em; /* Larger option text */
+  color: #424242; /* Dark grey */
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.question label:hover {
+  color: #00897b; /* Teal on hover */
+}
+
+.question input[type="radio"],
+.question input[type="checkbox"] {
+  transform: scale(1.6); /* Larger radio buttons */
+  margin-right: 15px; /* More space */
+  accent-color: #00bcd4; /* Cyan accent color for radio/checkbox - playful */
+}
+
+/* Fill-in-the-blank input */
+.fill-in-blank-standalone {
+  width: 220px; /* Adjusted width */
+  padding: 10px 15px;
+  border: 2px solid #64b5f6; /* Blue border */
+  border-radius: 12px; /* More rounded */
+  font-size: 1.1em;
+  margin-top: 10px; /* Adjusted margin-top to bring it closer */
+  display: block; /* Still on its own line */
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+/* Write Answer Textarea */
+.write-answer-textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #64b5f6; /* Blue border */
+  border-radius: 12px;
+  font-size: 1.1em;
+  min-height: 120px; /* Slightly larger default height */
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+/* Check Answer Button */
+.check-answer-button {
+  background-color: #ffeb3b; /* Bright yellow - sunny! */
+  color: #333; /* Dark text on yellow */
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 12px;
+  margin-top: 20px;
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.check-answer-button:hover {
+  background-color: #fdd835; /* Darker yellow */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.35);
+}
+
+.check-answer-button:disabled {
+  background-color: #bdbdbd; /* Grey for disabled */
+  cursor: not-allowed;
+  box-shadow: none;
+  color: #616161;
+}
+
+/* Result messages */
+.result-message {
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 1.5;
+  background-color: #f0f4c3; /* Light pastel yellow for message background */
+}
+.result-message span[style*="color: green"] {
+  background-color: #e6ffe6; /* Very light green */
+  padding: 5px 5px;
+  color: #2e7d32 !important; /* Darker green text */
+}
+
+.result-message span[style*="color: red"] {
+  background-color: #ffebee; /* Very light red */
+  padding: 5px 5px;
+  color: #c62828 !important; /* Darker red text */
+}
+/* New rule for the main feedback text (e.g., "Excellent!" or "Oops!") */
+.result-message .feedback-text {
+  display: block;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 2px; /* ĐIỀU CHỈNH: Giảm khoảng cách dưới thông báo chính */
+  box-sizing: border-box;
+}
+
+/* Adjust the specific color rules to target the new .feedback-text class */
+.result-message .feedback-text[style*="color: green"] {
+  background-color: #e6ffe6; /* Very light green background */
+  color: #2e7d32 !important; /* Darker green text */
+}
+
+.result-message .feedback-text[style*="color: red"] {
+  background-color: #ffebee; /* Very light red background */
+  border: 1px solid #ef5350; /* Lighter red border */
+  color: #c62828 !important; /* Darker red text */
+}
+
+/* Existing .explanation-text rule, adjust margin-top */
+.explanation-text {
+  display: block;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.9em;
+  margin-top: 5px; /* ĐIỀU CHỈNH: Giảm khoảng cách trên phần giải thích */
+  color: #555;
+}
+
+/* Optional: styling for disabled/read-only inputs */
+input:disabled,
+textarea:disabled,
+input[readonly],
+textarea[readonly] {
+  background-color: #e9ecef; /* Light grey background */
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+
+/* Feedback Emoji Styling (Sad) */
+.feedback-emoji {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for element's own size */
+  font-size: 6em; /* Very large emoji */
+  opacity: 1;
+  transition: opacity 1s ease-out; /* Smooth fade-out */
+  pointer-events: none; /* Allows clicks to pass through */
+  z-index: 100; /* Ensure it's on top */
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 25px;
+  background-color: #8bc34a; /* A vibrant, playful green */
+  color: white;
+  border-radius: 0 0 20px 20px; /* Match main container radius */
+  box-shadow: 0 -5px 12px rgba(0,0,0,0.15);
+  display: flex; /* Use flexbox for button alignment */
+  justify-content: center; /* Center buttons */
+  gap: 30px; /* Space between buttons */
+}
+
+footer button {
+  background-color: #ff5722; /* Playful orange for buttons */
+  color: white;
+  padding: 15px 35px;
+  font-size: 1.3em;
+  border-radius: 12px; /* More rounded */
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase; /* Make text uppercase */
+  letter-spacing: 1px; /* Add some letter spacing */
+}
+
+footer button:hover {
+  background-color: #e64a19; /* Darker orange on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.35);
+}
+
+/* Score Summary Panel Styling */
+#result-panel {
+    display: none; /* Hide initially */
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    /* Base styles, specific colors added by classes below */
+}
+
+/* Specific colors for score ranges */
+.score-summary-low {
+    background-color: #ffebee; /* Light red background */
+    border: 2px solid #ef5350; /* Red border */
+}
+
+.score-summary-medium {
+    background-color: #fffde7; /* Light yellow background */
+    border: 2px solid #ffca28; /* Amber border */
+}
+
+.score-summary-high {
+    background-color: #e8f5e9; /* Light green background */
+    border: 2px solid #66bb6a; /* Green border */
+}
+
+.score-summary p {
+    margin: 10px 0;
+    line-height: 1.4;
+    color: #424242;
+}
+
+.score-summary p strong {
+    color: #ff5722; /* Still vibrant orange for numbers */
+    font-size: 1.1em;
+}
+
+/* Keep the warning style */
+.score-summary-warning {
+    background-color: #fff3e0;
+    border: 1px dashed #ffb74d;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* --- PRINTING STYLES --- */
+@media print {
+  /* Force print backgrounds and colors */
+  body {
+    -webkit-print-color-adjust: exact !important; /* For Webkit (Chrome, Safari) */
+    print-color-adjust: exact !important; /* Standard property */
+  }
+
+  /* Ensure header background color is printed */
+  header {
+    background-color: #ff9800 !important; /* Match your desired header color */
+    color: white !important; /* Ensure text color is white */
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    box-shadow: none !important; /* Remove shadows as they might not print well */
+  }
+
+  /* Remove text shadow from h1 as it might cause issues */
+  header h1 {
+    text-shadow: none !important;
+    color: white !important; /* Re-confirm text color */
+  }
+
+  /* Ensure selection panel background is printed */
+  #selection-panel {
+    background-color: #fff9c4 !important;
+    border: none !important; /* Remove dashed border for print */
+    box-shadow: none !important; /* Remove shadows */
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Ensure select boxes show their selected value cleanly */
+  #selection-panel select {
+    border: none !important;
+    background-color: transparent !important;
+    appearance: none !important;
+    background-image: none !important;
+    padding: 0 !important;
+    font-weight: bold !important;
+    color: #333 !important; /* Make sure text is visible */
+  }
+
+  /* Ensure question backgrounds are printed */
+  .question {
+    background-color: #ffffff !important;
+    border-color: #8bc34a !important;
+    box-shadow: none !important; /* Remove shadows */
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .question:hover {
+    transform: none !important; /* Remove hover effects */
+    box-shadow: none !important;
+  }
+
+  /* Ensure result messages backgrounds/colors are printed */
+  .result-message {
+    background-color: #f0f4c3 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    border: 1px solid #ddd !important; /* Add a subtle border */
+  }
+
+  .result-message span[style*="color: green"] {
+    background-color: #e6ffe6 !important;
+    border-color: #66bb6a !important;
+    color: #2e7d32 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .result-message span[style*="color: red"] {
+    background-color: #ffebee !important;
+    border-color: #ef5350 !important;
+    color: #c62828 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide interactive elements not needed in print */
+  .check-answer-button,
+  footer button {
+    display: none !important;
+  }
+
+  /* Adjust inputs for print view */
+  input[type="radio"]:disabled + label, /* Ensure disabled radio labels are visible */
+  input[type="checkbox"]:disabled + label {
+    color: #333 !important; /* Make text readable */
+  }
+
+  input[type="text"][readonly],
+  textarea[readonly] {
+    background-color: #f8f9fa !important; /* Ensure readable background for filled inputs */
+    border: 1px solid #ccc !important;
+    color: #333 !important; /* Ensure text is visible */
+  }
+
+  /* General print adjustments for readability */
+  main, footer {
+    box-shadow: none !important; /* Remove shadows for cleaner print */
+    border-radius: 0 !important; /* Remove rounded corners */
+  }
+
+  /* Optional: Adjust font size for print if needed */
+  body {
+    font-size: 12pt;
+  }
+
+  /* Add page breaks for long content */
+  .question {
+    page-break-inside: avoid; /* Avoid breaking a question across pages */
+  }
+}

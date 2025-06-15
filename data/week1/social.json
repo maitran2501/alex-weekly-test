@@ -1,0 +1,194 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which word means 'very close'?",
+    "options": ["far", "near", "up", "down"],
+    "answer": "near",
+    "explanation": "If something is near, it is very close to you."
+  },
+  {
+    "type": "mcq",
+    "text": "If you look up, what can you usually see?",
+    "options": ["the ground", "the cloud", "your feet", "the trash"],
+    "answer": "the cloud",
+    "explanation": "When you look up, you usually see the sky and clouds."
+  },
+  {
+    "type": "mcq",
+    "text": "Which hand makes the letter 'L' shape when you hold it up?",
+    "options": ["right hand", "left hand", "both hands", "neither"],
+    "answer": "left hand",
+    "explanation": "Your left hand can make the shape of the letter 'L'."
+  },
+  {
+    "type": "mcq",
+    "text": "What is a map typically made of?",
+    "options": ["wood", "plastic", "paper", "metal"],
+    "answer": "paper",
+    "explanation": "Maps are usually printed on a piece of paper."
+  },
+  {
+    "type": "mcq",
+    "text": "A big book that is full of different maps is called a/an ______.",
+    "options": ["dictionary", "atlas", "globe", "storybook"],
+    "answer": "atlas",
+    "explanation": "An atlas is a collection of maps in a book."
+  },
+  {
+    "type": "mcq",
+    "text": "What is a round model that looks like the Earth?",
+    "options": ["map", "book", "globe", "planet"],
+    "answer": "globe",
+    "explanation": "A globe is a round model of the Earth."
+  },
+  {
+    "type": "mcq",
+    "text": "If you are far from something, what can you NOT do easily?",
+    "options": ["see it", "hear it", "smell it", "touch it"],
+    "answer": "smell it",
+    "explanation": "When something is far away, its smell might not reach you easily."
+  },
+  {
+    "type": "mcq",
+    "text": "Which direction is the opposite of 'up'?",
+    "options": ["left", "right", "down", "near"],
+    "answer": "down",
+    "explanation": "The opposite of up is down."
+  },
+  {
+    "type": "mcq",
+    "text": "An 'X' on a map shows where ______ is. (Based on Lora's story)",
+    "options": ["the map starts", "the map ends", "the hidden treasure", "Lora"],
+    "answer": "Lora",
+    "explanation": "In Lora's story, the 'X' on the map shows where Lora is."
+  },
+  {
+    "type": "mcq",
+    "text": "Who gave her map to Lora so Lora could find her friend?",
+    "options": ["Alex", "Anna", "Maya", "The teacher"],
+    "answer": "Maya",
+    "explanation": "Maya gave her map to Lora."
+  },
+  {
+    "type": "mcq",
+    "text": "Maps are important for ______.",
+    "options": ["only adventurers", "only teachers", "only Lora", "everyone"],
+    "answer": "everyone",
+    "explanation": "Maps are useful and important for everyone to find places."
+  },
+  {
+    "type": "mcq",
+    "text": "If Alex is standing on the ground, and he wants to see the clouds, he should look ______.",
+    "options": ["down", "left", "right", "up"],
+    "answer": "up",
+    "explanation": "To see the clouds, you need to look up into the sky."
+  },
+  {
+    "type": "truefalse",
+    "text": "If something is 'near', you can smell it easily.",
+    "answer": true,
+    "explanation": "Yes, things that are near are usually easier to smell."
+  },
+  {
+    "type": "truefalse",
+    "text": "Your right hand helps you make the letter 'L' shape.",
+    "answer": false,
+    "explanation": "No, your left hand helps you make the letter 'L' shape."
+  },
+  {
+    "type": "truefalse",
+    "text": "A map is always a round ball.",
+    "answer": false,
+    "explanation": "A globe is a round ball, a map is usually flat paper."
+  },
+  {
+    "type": "truefalse",
+    "text": "A map can have a 'legend' to explain its symbols.",
+    "answer": true,
+    "explanation": "Yes, a legend (or key) on a map explains what the symbols mean."
+  },
+  {
+    "type": "truefalse",
+    "text": "If you are standing and look 'down', you can see the sky.",
+    "answer": false,
+    "explanation": "No, if you look down, you see the ground."
+  },
+  {
+    "type": "truefalse",
+    "text": "An atlas is a book that contains many different maps.",
+    "answer": true,
+    "explanation": "Yes, an atlas is a collection of maps in book form."
+  },
+  {
+    "type": "fillin",
+    "text": "When something is ______, you cannot smell the trash very well.",
+    "answer": "far",
+    "explanation": "If something is far away, its smell is too weak to notice."
+  },
+  {
+    "type": "fillin",
+    "text": "If you are walking towards your friend, you are getting ______ to them.",
+    "answer": "near",
+    "explanation": "When you move towards something, you get near to it."
+  },
+  {
+    "type": "fillin",
+    "text": "If you drop a ball, it goes ______ to the ground.",
+    "answer": "down",
+    "explanation": "Gravity pulls things down towards the ground."
+  },
+  {
+    "type": "fillin",
+    "text": "To remember which is your left hand, you can make the letter ______ with your fingers.",
+    "answer": "L",
+    "explanation": "Your left hand can easily form the letter 'L' shape."
+  },
+  {
+    "type": "fillin",
+    "text": "The opposite side of your left hand is your ______ hand.",
+    "answer": "right",
+    "explanation": "Left and right are opposite directions."
+  },
+  {
+    "type": "fillin",
+    "text": "A map is a piece of ______ that shows places.",
+    "answer": "paper",
+    "explanation": "Maps are usually printed on paper."
+  },
+  {
+    "type": "fillin",
+    "text": "An 'X' on a map can show you where ______ is, if you are reading Lora's map.",
+    "answer": "Lora",
+    "explanation": "In Lora's map, the 'X' shows Lora's position."
+  },
+  {
+    "type": "fillin",
+    "text": "A map can have a ______ to help you understand how big distances are in real life.",
+    "answer": "scale",
+    "explanation": "A scale on a map helps you measure distances."
+  },
+  {
+    "type": "fillin",
+    "text": "Maya gave her ______ to Lora so Lora could find her best friend.",
+    "answer": "map",
+    "explanation": "Maya used a map to help Lora find her way."
+  },
+  {
+    "type": "fillin",
+    "text": "Maps are very ______ for everyone to find their way around.",
+    "answer": "important",
+    "explanation": "Maps are important tools for navigation."
+  },
+  {
+    "type": "fillin",
+    "text": "If you want to see the whole Earth as a round ball, you look at a ______.",
+    "answer": "globe",
+    "explanation": "A globe is a model of the Earth in the shape of a ball."
+  },
+  {
+    "type": "fillin",
+    "text": "If Alex wants to find something in the sky, he should look ______.",
+    "answer": "up",
+    "explanation": "To see things in the sky, you look up."
+  }
+]

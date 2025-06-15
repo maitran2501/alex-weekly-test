@@ -1,0 +1,194 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which animal starts with the 'D' sound?",
+    "options": ["cat", "dog", "fish", "bird"],
+    "answer": "dog",
+    "explanation": "The word 'dog' begins with the /d/ sound."
+  },
+  {
+    "type": "mcq",
+    "text": "Look at the word 'moon'. What is the first letter sound you hear?",
+    "options": ["/n/", "/m/", "/oo/", "/p/"],
+    "answer": "/m/",
+    "explanation": "The word 'moon' starts with the /m/ sound, like in 'monkey'."
+  },
+  {
+    "type": "mcq",
+    "text": "Which letter comes after 'P' in the English alphabet?",
+    "options": ["O", "Q", "R", "S"],
+    "answer": "Q",
+    "explanation": "The letters in order are P, Q, R, S."
+  },
+  {
+    "type": "mcq",
+    "text": "A very tall animal with a long neck starts with the letter 'G'. What is it?",
+    "options": ["goat", "gorilla", "giraffe", "goose"],
+    "answer": "giraffe",
+    "explanation": "A giraffe is a tall animal that starts with 'G'."
+  },
+  {
+    "type": "mcq",
+    "text": "Which word has the 'sh' digraph sound?",
+    "options": ["tree", "ship", "clown", "block"],
+    "answer": "ship",
+    "explanation": "The word 'ship' has the 'sh' sound at the beginning."
+  },
+  {
+    "type": "mcq",
+    "text": "What word names something you use to talk on, and starts with the 'ph' digraph?",
+    "options": ["photo", "phone", "fish", "fan"],
+    "answer": "phone",
+    "explanation": "A 'phone' is used to talk and starts with the 'ph' sound."
+  },
+  {
+    "type": "mcq",
+    "text": "Which word means 'not right' or 'incorrect' and starts with the 'wr' digraph?",
+    "options": ["read", "write", "wrong", "rope"],
+    "answer": "wrong",
+    "explanation": "The word 'wrong' means not correct and starts with 'wr'."
+  },
+  {
+    "type": "mcq",
+    "text": "Which word starts with the 'cl' consonant blend?",
+    "options": ["car", "clock", "cat", "cut"],
+    "answer": "clock",
+    "explanation": "The word 'clock' begins with the 'cl' blend."
+  },
+  {
+    "type": "mcq",
+    "text": "What word names a small, slow animal that moves with a shell and starts with the 'sn' blend?",
+    "options": ["snake", "snail", "snow", "star"],
+    "answer": "snail",
+    "explanation": "A 'snail' is a slow animal with a shell, and it starts with 'sn'."
+  },
+  {
+    "type": "mcq",
+    "text": "Which word has the 'br' consonant blend?",
+    "options": ["ball", "bird", "brush", "big"],
+    "answer": "brush",
+    "explanation": "The word 'brush' contains the 'br' blend."
+  },
+  {
+    "type": "mcq",
+    "text": "What sound do you hear at the beginning of 'flower'?",
+    "options": ["/f/", "/l/", "/fl/", "/ow/"],
+    "answer": "/fl/",
+    "explanation": "The word 'flower' starts with the 'fl' blend sound."
+  },
+  {
+    "type": "mcq",
+    "text": "Which word sounds the same as 'knot' (like a strong tie) and is spelled with 'kn'?",
+    "options": ["not", "knit", "know", "knot"],
+    "answer": "knot",
+    "explanation": "The word 'knot' (like to tie) is spelled with 'kn'."
+  },
+  {
+    "type": "truefalse",
+    "text": "The word 'zebra' starts with the 'Z' sound.",
+    "answer": true,
+    "explanation": "Yes, 'zebra' begins with the /z/ sound."
+  },
+  {
+    "type": "truefalse",
+    "text": "The last letter sound in 'dog' is 'G'.",
+    "answer": true,
+    "explanation": "The word 'dog' ends with the /g/ sound."
+  },
+  {
+    "type": "truefalse",
+    "text": "The word 'thumb' has the 'ph' digraph sound.",
+    "answer": false,
+    "explanation": "The word 'thumb' has the 'th' digraph sound, not 'ph'."
+  },
+  {
+    "type": "truefalse",
+    "text": "The word 'wheel' has the 'wh' digraph sound.",
+    "answer": true,
+    "explanation": "Yes, 'wheel' starts with the 'wh' digraph sound."
+  },
+  {
+    "type": "truefalse",
+    "text": "The word 'spoon' starts with the 'sp' consonant blend.",
+    "answer": true,
+    "explanation": "Yes, 'spoon' begins with the 'sp' blend."
+  },
+  {
+    "type": "truefalse",
+    "text": "The word 'frog' has the 'cl' consonant blend.",
+    "answer": false,
+    "explanation": "The word 'frog' starts with the 'fr' blend, not 'cl'."
+  },
+  {
+    "type": "fillin",
+    "text": "The first letter sound in 'robot' is the letter ______. (Write the letter)",
+    "answer": "r",
+    "explanation": "The word 'robot' starts with the letter 'r'."
+  },
+  {
+    "type": "fillin",
+    "text": "What letter makes the sound you hear at the beginning of 'van'? ______. (Write the letter)",
+    "answer": "v",
+    "explanation": "The word 'van' starts with the letter 'v'."
+  },
+  {
+    "type": "fillin",
+    "text": "The animal that hops and has long ears starts with 'B'. It is a ______. (Write the word)",
+    "answer": "bunny",
+    "explanation": "A bunny is an animal that hops and starts with 'b'."
+  },
+  {
+    "type": "fillin",
+    "text": "If you are looking at a photograph, the first letter of 'photograph' is ______. (Write the letter)",
+    "answer": "p",
+    "explanation": "The word 'photograph' starts with the letter 'p'."
+  },
+  {
+    "type": "fillin",
+    "text": "A place where boats go is called a ______. (This word starts with the 'sh' digraph)",
+    "answer": "ship",
+    "explanation": "A 'ship' is a place where boats go and starts with the 'sh' sound."
+  },
+  {
+    "type": "fillin",
+    "text": "When you make a choice, you might say 'I will ______' (Write the digraph that starts 'choice')",
+    "answer": "ch",
+    "explanation": "The word 'choice' starts with the 'ch' digraph sound."
+  },
+  {
+    "type": "fillin",
+    "text": "This word sounds like the question 'when' and starts with the 'wh' digraph. What is it? ______. (Write the word)",
+    "answer": "when",
+    "explanation": "The word 'when' starts with the 'wh' digraph and asks about time."
+  },
+  {
+    "type": "fillin",
+    "text": "A very tall green plant with a trunk is a ______. (This word starts with the 'tr' blend)",
+    "answer": "tree",
+    "explanation": "A 'tree' is a tall plant with a trunk, and it starts with the 'tr' blend."
+  },
+  {
+    "type": "fillin",
+    "text": "You use this to clean your teeth. It starts with the 'br' blend. It is a ______. (Write the word)",
+    "answer": "brush",
+    "explanation": "You use a 'brush' to clean your teeth, and it starts with 'br'."
+  },
+  {
+    "type": "fillin",
+    "text": "This is something you use to tell time. It starts with the 'cl' blend. It is a ______. (Write the word)",
+    "answer": "clock",
+    "explanation": "A 'clock' tells time and starts with the 'cl' blend."
+  },
+  {
+    "type": "fillin",
+    "text": "A small, slippery animal without legs, often found in gardens, starts with the 'sn' blend. It is a ______. (Write the word)",
+    "answer": "snail",
+    "explanation": "A 'snail' is a slippery animal with no legs that starts with 'sn'."
+  },
+  {
+    "type": "fillin",
+    "text": "This word means to twist or wind something. It starts with the 'tw' blend. What is it? ______. (Write the word)",
+    "answer": "twist",
+    "explanation": "The word 'twist' means to wind something and starts with the 'tw' blend."
+  }
+]

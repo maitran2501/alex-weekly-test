@@ -1,0 +1,194 @@
+[
+  {
+    "type": "mcq",
+    "text": "What is a plant according to the mindmap?",
+    "options": ["A machine", "A living thing", "A toy", "A bird"],
+    "answer": "A living thing",
+    "explanation": "A plant is a living thing because it needs energy to grow."
+  },
+  {
+    "type": "mcq",
+    "text": "Which of these helps a plant grow?",
+    "options": ["Sunlight", "Television", "Car", "Book"],
+    "answer": "Sunlight",
+    "explanation": "Plants need sunlight to make energy and grow."
+  },
+  {
+    "type": "mcq",
+    "text": "What kind of tree stays green all year?",
+    "options": ["Leaf tree", "Needle tree", "Fruit tree", "Flower tree"],
+    "answer": "Needle tree",
+    "explanation": "Needle trees stay green all year with their needles."
+  },
+  {
+    "type": "mcq",
+    "text": "What can an oak tree give us?",
+    "options": ["Food", "Water", "Sand", "Stone"],
+    "answer": "Food",
+    "explanation": "Trees like oak can give us food, such as acorns."
+  },
+  {
+    "type": "mcq",
+    "text": "Which plant can be a good home for birds?",
+    "options": ["Grass", "Cactus", "Dandelion", "Tree"],
+    "answer": "Tree",
+    "explanation": "A tree is a strong plant and can be a home for birds."
+  },
+  {
+    "type": "mcq",
+    "text": "What grows from an acorn?",
+    "options": ["Cactus", "Oak tree", "Grass", "Flower"],
+    "answer": "Oak tree",
+    "explanation": "An acorn is the seed that grows into an oak tree."
+  },
+  {
+    "type": "mcq",
+    "text": "Which plant changes leaves during the year?",
+    "options": ["Needle tree", "Leaf tree", "Cactus", "Grass"],
+    "answer": "Leaf tree",
+    "explanation": "Leaf trees change their leaves during the year."
+  },
+  {
+    "type": "mcq",
+    "text": "What do cows eat according to the mindmap?",
+    "options": ["Acorn", "Grass", "Needle", "Flower"],
+    "answer": "Grass",
+    "explanation": "Cows eat grass as their food."
+  },
+  {
+    "type": "mcq",
+    "text": "What part of the plant grows underground?",
+    "options": ["Leaf", "Flower", "Root", "Needle"],
+    "answer": "Root",
+    "explanation": "Roots grow underground to take water and hold the plant."
+  },
+  {
+    "type": "mcq",
+    "text": "Which plant can live in a dry place?",
+    "options": ["Oak tree", "Cactus", "Dandelion", "Grass"],
+    "answer": "Cactus",
+    "explanation": "A cactus can live in dry places because it stores water."
+  },
+  {
+    "type": "mcq",
+    "text": "What do plants use to make energy?",
+    "options": ["Rain", "Sunlight", "Snow", "Cloud"],
+    "answer": "Sunlight",
+    "explanation": "Plants use sunlight to make energy and grow."
+  },
+  {
+    "type": "mcq",
+    "text": "Which plant has a part called a needle?",
+    "options": ["Leaf tree", "Needle tree", "Dandelion", "Cactus"],
+    "answer": "Needle tree",
+    "explanation": "Needle trees have needles instead of leaves."
+  },
+  {
+    "type": "truefalse",
+    "text": "All plants need energy to grow.",
+    "answer": true,
+    "explanation": "Plants need energy from sunlight to grow and stay alive."
+  },
+  {
+    "type": "truefalse",
+    "text": "A cactus is a type of tree.",
+    "answer": false,
+    "explanation": "A cactus is a plant, but it is not a tree."
+  },
+  {
+    "type": "truefalse",
+    "text": "Trees with leaves change during the year.",
+    "answer": true,
+    "explanation": "Leaf trees change their leaves during the year."
+  },
+  {
+    "type": "truefalse",
+    "text": "An acorn can create a new cactus.",
+    "answer": false,
+    "explanation": "An acorn grows into an oak tree, not a cactus."
+  },
+  {
+    "type": "truefalse",
+    "text": "Plants can make new plants.",
+    "answer": true,
+    "explanation": "Plants can create new plants using seeds or energy."
+  },
+  {
+    "type": "truefalse",
+    "text": "Grass is a type of tree.",
+    "answer": false,
+    "explanation": "Grass is a plant, but it is not a tree."
+  },
+  {
+    "type": "fillin",
+    "text": "A plant is a ______ thing.",
+    "answer": "living",
+    "explanation": "A plant is a living thing because it grows and changes."
+  },
+  {
+    "type": "fillin",
+    "text": "Needle trees stay green all ______.",
+    "answer": "year",
+    "explanation": "Needle trees stay green all year with their needles."
+  },
+  {
+    "type": "fillin",
+    "text": "An oak tree grows from an ______.",
+    "answer": "acorn",
+    "explanation": "Acorns are the seeds of oak trees."
+  },
+  {
+    "type": "fillin",
+    "text": "Leaf trees change their ______ during the year.",
+    "answer": "leaves",
+    "explanation": "Leaf trees change their leaves during the year."
+  },
+  {
+    "type": "fillin",
+    "text": "A ______ is a strong plant for a bird’s home.",
+    "answer": "tree",
+    "explanation": "A tree is a strong plant and can be a home for birds."
+  },
+  {
+    "type": "fillin",
+    "text": "Cows eat ______ as their food.",
+    "answer": "grass",
+    "explanation": "Cows eat grass according to the mindmap."
+  },
+  {
+    "type": "fillin",
+    "text": "Plants need ______ to grow and make new plants.",
+    "answer": "energy",
+    "explanation": "Plants need energy to grow and create new plants."
+  },
+  {
+    "type": "fillin",
+    "text": "A dandelion grows a ______ flower.",
+    "answer": "small",
+    "explanation": "A dandelion grows a small flower."
+  },
+  {
+    "type": "fillin",
+    "text": "A ______ helps a plant take water from the ground.",
+    "answer": "root",
+    "explanation": "Roots take water from the ground to help the plant grow."
+  },
+  {
+    "type": "fillin",
+    "text": "A cactus can store ______ in dry places.",
+    "answer": "water",
+    "explanation": "A cactus stores water to survive in dry places."
+  },
+  {
+    "type": "fillin",
+    "text": "Trees give birds ______ like fruits or seeds.",
+    "answer": "food",
+    "explanation": "Trees provide food for birds to eat."
+  },
+  {
+    "type": "fillin",
+    "text": "A needle tree has ______ instead of leaves.",
+    "answer": "needles",
+    "explanation": "Needle trees have needles, which stay green all year."
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "type": "mcq",
+    "text": "Which of these numbers is the smallest?",
+    "options": ["100", "99", "1.000", "10"],
+    "answer": "10",
+    "explanation": "10 is the smallest value among these numbers. Keep shining!"
+  },
+  {
+    "type": "mcq",
+    "text": "Which of these numbers is the largest?",
+    "options": ["50", "5.000", "500", "5"],
+    "answer": "5.000",
+    "explanation": "5.000 (five thousand) is the largest number here. Great job!"
+  },
+  {
+    "type": "mcq",
+    "text": "A book that is full of different maps is called a/an ______.",
+    "options": ["dictionary", "atlas", "globe", "storybook"],
+    "answer": "atlas",
+    "explanation": "An atlas is a collection of maps in a book. You got this!"
+  },
+  {
+    "type": "mcq",
+    "text": "Which direction is the opposite of 'near'?",
+    "options": ["up", "down", "far", "left"],
+    "answer": "far",
+    "explanation": "If something is far, it means it's not near. Good thinking!"
+  },
+  {
+    "type": "mcq",
+    "text": "Which shape has exactly 3 sides and 3 corners?",
+    "options": ["Square", "Circle", "Triangle", "Rectangle"],
+    "answer": "Triangle",
+    "explanation": "A triangle is a shape with three straight sides and three corners. Excellent!"
+  },
+  {
+    "type": "mcq",
+    "text": "Which shape has no straight sides and no corners?",
+    "options": ["Triangle", "Square", "Circle", "Rectangle"],
+    "answer": "Circle",
+    "explanation": "A circle is perfectly round, with no straight sides or sharp corners. Awesome!"
+  },
+  {
+    "type": "mcq",
+    "text": "Three chicks, Alex, Lima, and Anna, are following their mother. Alex goes in front of Lima. Anna only goes behind her mom. Which chick is in position 2 in the line?",
+    "options": ["Alex", "Lima", "Anna", "Cannot be determined"],
+    "answer": "Lima",
+    "explanation": "The order is Mom, Anna, Alex, Lima. So Lima is in position 2. This requires careful thinking!"
+  },
+  {
+    "type": "truefalse",
+    "text": "The result of 2 multiplied by 10 is 20.",
+    "answer": true,
+    "explanation": "Yes, 2 times 10 is 20. Correct!"
+  },
+  {
+    "type": "truefalse",
+    "text": "A square has all 4 sides equal in length.",
+    "answer": true,
+    "explanation": "Yes, all four sides of a square are always the same length. Great job!"
+  },
+  {
+    "type": "truefalse",
+    "text": "A circle has 4 straight sides.",
+    "answer": false,
+    "explanation": "No, a circle is round and has no straight sides. It's a curved line!"
+  },
+  {
+    "type": "fillin",
+    "text": "What is 3 multiplied by 8?",
+    "answer": 24,
+    "explanation": "3 times 8 equals 24. Good multiplication!"
+  },
+  {
+    "type": "fillin",
+    "text": "Calculate: 12,000 + 5,500 = ?",
+    "answer": 17500,
+    "explanation": "12,000 plus 5,500 is 17,500."
+  },
+  {
+    "type": "fillin",
+    "text": "Subtract: 75,000 - 15,000 = ?",
+    "answer": 60000,
+    "explanation": "75,000 minus 15,000 is 60,000."
+  },
+  {
+    "type": "fillin",
+    "text": "How many times does 5 go into 40?",
+    "answer": 8,
+    "explanation": "40 divided by 5 is 8. Excellent division skills!"
+  },
+  {
+    "type": "fillin",
+    "text": "What is 4 times 9?",
+    "answer": 36,
+    "explanation": "4 times 9 is 36. Keep practicing your tables!"
+  },
+  {
+    "type": "fillin",
+    "text": "Calculate: 500 + 700 = ?",
+    "answer": 1200,
+    "explanation": "500 plus 700 is 1,200."
+  },
+  {
+    "type": "fillin",
+    "text": "What is the product of 25 and 3?",
+    "answer": 75,
+    "explanation": "25 multiplied by 3 is 75. You're a math pro!"
+  },
+  {
+    "type": "fillin",
+    "text": "Alex starts playing his video game at 6:30 PM. He plays for 45 minutes. What time will he finish playing?",
+    "answer": "7:15 PM",
+    "explanation": "6:30 PM + 45 minutes = 7:15 PM. Time for fun!"
+  },
+  {
+    "type": "fillin",
+    "text": "Alex watched a TV show from 7:00 PM to 8:15 PM. How many minutes did he watch TV?",
+    "answer": 75,
+    "explanation": "From 7:00 PM to 8:00 PM is 60 minutes. From 8:00 PM to 8:15 PM is 15 minutes. So 60 + 15 = 75 minutes."
+  },
+  {
+    "type": "fillin",
+    "text": "If a Lego building session starts at 9:00 AM and lasts 1 hour and 45 minutes, what time will it end?",
+    "answer": "10:45 AM",
+    "explanation": "9:00 AM + 1 hour 45 minutes = 10:45 AM. Awesome time tracking!"
+  },
+  {
+    "type": "fillin",
+    "text": "Alex's racing car is 15 centimeters long. If he has 3 such cars and places them end-to-end, what is the total length in centimeters?",
+    "answer": 45,
+    "explanation": "15 cm * 3 cars = 45 cm. That's a long racing line!"
+  },
+  {
+    "type": "fillin",
+    "text": "A Minecraft tower is 2 meters tall. If Alex adds another 50 centimeters to its height, how tall is the tower now in centimeters?",
+    "answer": 250,
+    "explanation": "First, convert meters to centimeters: 2 meters = 200 cm. Then add: 200 cm + 50 cm = 250 cm. Smart conversion!"
+  },
+  {
+    "type": "fillin",
+    "text": "Alex used a string that was 30 centimeters long to measure his toy car. If his car is 12 centimeters long, how much string is left?",
+    "answer": 18,
+    "explanation": "30 cm - 12 cm = 18 cm of string left."
+  },
+  {
+    "type": "fillin",
+    "text": "Alex has 50,000 VND. He buys an Oreo cookie for 12,000 VND. How much money does he have left?",
+    "answer": 38000,
+    "explanation": "50,000 - 12,000 = 38,000 VND remaining. Good with money!"
+  },
+  {
+    "type": "fillin",
+    "text": "Alex earned 25,000 VND from helping his mom. If he wants to buy a Plants vs. Zombies sticker pack that costs 40,000 VND, how much more money does he need?",
+    "answer": 15000,
+    "explanation": "40,000 - 25,000 = 15,000 VND more needed. Almost there!"
+  },
+  {
+    "type": "fillin",
+    "text": "I have 4 sides. My opposite sides are equal in length, but not all my sides are equal. What shape am I? (Write the name of the shape)",
+    "answer": "rectangle",
+    "explanation": "A rectangle has four sides with opposite sides being equal in length. Great geometry thinking!"
+  },
+  {
+    "type": "fillin",
+    "text": "Six elephants A, B, C, D, E, F are lining up to buy tickets. D is in the first position, and B is in the last. F stands behind E, in front of C, and between D and A. What is the position of F?",
+    "answer": 3,
+    "explanation": "The order is D, E, F, C, A, B. So F is in the 3rd position. This was tricky, great job!"
+  },
+  {
+    "type": "fillin",
+    "text": "Three Gods of Wind, Fire, and Mountain had an eating contest. The God of Wind ate more than the God of Fire. The God of Mountain ate less than the God of Fire. Who is the winner?",
+    "answer": "Wind",
+    "explanation": "Wind ate more than Fire, and Fire ate more than Mountain. So Wind is the winner."
+  },
+  {
+    "type": "fillin",
+    "text": "Plane, Train, and Ship are in a race. Plane finished before Ship, and Train also finished before Ship. However, Plane did not finish in first place. What is the winner of the race?",
+    "answer": "Train",
+    "explanation": "If Plane is before Ship, and Train is before Ship, the order is (Train or Plane), (Plane or Train), Ship. Since Plane is NOT first, Train must be first. (Train, Plane, Ship)."
+  },
+  {
+    "type": "fillin",
+    "text": "Four turtles, Baia, Zigan, Mark, and Raman, had a boat race. Baia finished before Zigan. Baia also finished after Raman. But Raman did not finish in first place. Which turtle is the winner of the race?",
+    "answer": "Mark",
+    "explanation": "Baia < Zigan. Raman < Baia. So Raman < Baia < Zigan. Since Raman is not first, there must be someone before Raman. That's Mark. So, Mark < Raman < Baia < Zigan. Mark is the winner."
+  },
+  {
+    "type": "fillin",
+    "text": "Four friends Tung, Cuc, Truc, and Mai sit on a couch. First, Tung swaps places with Truc. After that, Truc changes places with Mai. In the end, they sit from left to right in this order: Tung, Cuc, Truc, Mai. What was their original sitting order from left to right, at first? (Write the names in order, separated by commas)",
+    "answer": "Truc, Cuc, Mai, Tung",
+    "explanation": "This is a tricky one! Work backward. Before Truc swapped with Mai, it was Tung, Cuc, Mai, Truc. Before Tung swapped with Truc, it was Truc, Cuc, Mai, Tung."
+  },
+  {
+    "type": "fillin",
+    "text": "Antol arranges his three toys: a teddy bear, a car, and a reindeer on a shelf. He puts the teddy bear between the reindeer and the car. The reindeer is below the pig toy (which is not on the shelf). The giraffe is on the left of the pig and the right of the duck. Based on the picture and rules, if the shelf has 6 compartments (like 2 rows of 3) and the orange compartment is the bottom right (position 6), which toy will be put in the orange compartment?",
+    "answer": "car",
+    "explanation": "This is a complex puzzle! Based on the original Kangaroo problem (P10): the bear, reindeer, and car are in the bottom layer. The bear is in compartment 5. The reindeer is in compartment 4 (below the pig in compartment 1). So the car must be in compartment 6 (the orange one)."
+  },
+  {
+    "type": "fillin",
+    "text": "Alex earned 25,000 VND from helping his mom. If he wants to buy a Plants vs. Zombies sticker pack that costs 40,000 VND, how much more money does he need?",
+    "answer": 15000,
+    "explanation": "40,000 - 25,000 = 15,000 VND more needed. Almost there!"
+  },
+  {
+    "type": "fillin",
+    "text": "I have 4 sides. My opposite sides are equal in length, but not all my sides are equal. What shape am I? (Write the name of the shape)",
+    "answer": "rectangle",
+    "explanation": "A rectangle has four sides with opposite sides being equal in length. Great geometry thinking!"
+  },
+  {
+    "type": "fillin",
+    "text": "Six elephants A, B, C, D, E, F are lining up to buy tickets. D is in the first position, and B is in the last. F stands behind E, in front of C, and between D and A. What is the position of F?",
+    "answer": 3,
+    "explanation": "The order is D, E, F, C, A, B. So F is in the 3rd position. This was tricky, great job!"
+  },
+  {
+    "type": "fillin",
+    "text": "Three Gods of Wind, Fire, and Mountain had an eating contest. The God of Wind ate more than the God of Fire. The God of Mountain ate less than the God of Fire. Who is the winner?",
+    "answer": "Wind",
+    "explanation": "Wind ate more than Fire, and Fire ate more than Mountain. So Wind is the winner."
+  },
+  {
+    "type": "fillin",
+    "text": "Plane, Train, and Ship are in a race. Plane finished before Ship, and Train also finished before Ship. However, Plane did not finish in first place. What is the winner of the race?",
+    "answer": "Train",
+    "explanation": "If Plane is before Ship, and Train is before Ship, the order is (Train or Plane), (Plane or Train), Ship. Since Plane is NOT first, Train must be first. (Train, Plane, Ship)."
+  },
+  {
+    "type": "fillin",
+    "text": "Four turtles, Baia, Zigan, Mark, and Raman, had a boat race. Baia finished before Zigan. Baia also finished after Raman. But Raman did not finish in first place. Which turtle is the winner of the race?",
+    "answer": "Mark",
+    "explanation": "Baia < Zigan. Raman < Baia. So Raman < Baia < Zigan. Since Raman is not first, there must be someone before Raman. That's Mark. So, Mark < Raman < Baia < Zigan. Mark is the winner."
+  },
+  {
+    "type": "fillin",
+    "text": "Four friends Tung, Cuc, Truc, and Mai sit on a couch. First, Tung swaps places with Truc. After that, Truc changes places with Mai. In the end, they sit from left to right in this order: Tung, Cuc, Truc, Mai. What was their original sitting order from left to right, at first? (Write the names in order, separated by commas)",
+    "answer": "Truc, Cuc, Mai, Tung",
+    "explanation": "This is a tricky one! Work backward. Before Truc swapped with Mai, it was Tung, Cuc, Mai, Truc. Before Tung swapped with Truc, it was Truc, Cuc, Mai, Tung."
+  },
+  {
+    "type": "fillin",
+    "text": "Antol arranges his three toys: a teddy bear, a car, and a reindeer on a shelf. He puts the teddy bear between the reindeer and the car. The reindeer is below the pig toy (which is not on the shelf). The giraffe is on the left of the pig and the right of the duck. Based on the picture and rules, if the shelf has 6 compartments (like 2 rows of 3) and the orange compartment is the bottom right (position 6), which toy will be put in the orange compartment?",
+    "answer": "car",
+    "explanation": "This is a complex puzzle! Based on the original Kangaroo problem (P10): the bear, reindeer, and car are in the bottom layer. The bear is in compartment 5. The reindeer is in compartment 4 (below the pig in compartment 1). So the car must be in compartment 6 (the orange one)."
+  }
+]
